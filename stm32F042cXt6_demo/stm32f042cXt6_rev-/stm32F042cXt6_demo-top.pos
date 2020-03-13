@@ -1,0 +1,31 @@
+### Module positions - created on 3/13/2020 4:18:54 PM ###
+### Printed by Pcbnew version kicad (5.1.4)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val             Package                                           PosX       PosY       Rot  Side
+C1        .1uF            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    75.6750   -88.5000    0.0000  top
+C2        .1uF            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    81.8500   -61.0750  225.0000  top
+C3        10uF            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    87.0000   -47.0000  315.0000  top
+C4        10uF            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    90.4250   -79.0250   90.0000  top
+C5        .1uF            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   102.4400   -63.9100    0.0000  top
+C6        .1uF            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder   100.7200   -42.7250  270.0000  top
+D1        WS2812B         LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm             45.1700   -95.4500  180.0000  top
+D2        WS2812B         LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm             54.1700   -95.4500  180.0000  top
+D3        WS2812B         LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm             63.1700   -95.4500  180.0000  top
+D4        WS2812B         LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm             72.1700   -95.4500  180.0000  top
+D5        WS2812B         LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm             81.1700   -95.4500  180.0000  top
+D6        WS2812B         LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm             90.1700   -95.4500  180.0000  top
+J2        USB_B_Micro     USB_Micro-B_Molex-105017-0001                 102.3000   -73.1200   90.0000  top
+M1        AM4311T42A0     PATRON-MIC-AM4311T42A0                         83.3400   -39.3500  135.0000  top
+R1        10k             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder    89.6250   -66.1250  180.0000  top
+R2        100k            R_0805_2012Metric_Pad1.15x1.40mm_HandSolder    75.0000   -63.9750  270.0000  top
+R3        1M              R_0805_2012Metric_Pad1.15x1.40mm_HandSolder    73.0750   -71.7500  315.0000  top
+R4        10k             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder    94.6750   -44.3200  180.0000  top
+R5        10k             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder   102.1700   -56.0500    0.0000  top
+R6        10k             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder    82.7250   -88.3250    0.0000  top
+SW1       TACTILE         TACTILE10B                                     95.0000   -60.0000   90.0000  top
+U1        STM32F042C4Tx   LQFP-48_7x7mm_P0.5mm                           82.0000   -53.5000  225.0000  top
+U2        AZ1117-3.3      SOT-223-3_TabPin2                              97.4900   -83.6900    0.0000  top
+U3        USB_PROTECTION  SOT-23-6_Handsoldering                         92.5000   -72.5000    0.0000  top
+U4        LTR-553ALS-WA   LTR-553ALS-WA-LITE-ON-AMBIENT                  95.6400   -40.1600   90.0000  top
+## End

@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Projects\stm32f042_fun\stm32F042cXt6_demo\stm32F042cXt6_demo.sch</source>
+    <date>3/13/2020 4:29:50 PM</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>stm32F042cXt6_demo.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P32">
+      <value>TA8</value>
+      <footprint>kicad:TOUCH_MARK</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6F604E</tstamp>
+    </comp>
+    <comp ref="P33">
+      <value>TA9</value>
+      <footprint>kicad:TOUCH_MARK</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6F5B3B</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>PB2</value>
+      <footprint>kicad:TOUCH_ARRAY_8_BOT</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6E8FEE</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>PB1</value>
+      <footprint>kicad:TOUCH_ARRAY_8_BOT</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6E8FE4</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>PB0</value>
+      <footprint>kicad:TOUCH_ARRAY_8_BOT</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6E8FDA</tstamp>
+    </comp>
+    <comp ref="P31">
+      <value>PB15</value>
+      <footprint>kicad:TOUCH_ARRAY_8_BOT</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6E53F7</tstamp>
+    </comp>
+    <comp ref="P30">
+      <value>PB14</value>
+      <footprint>kicad:TOUCH_ARRAY_8_BOT</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6E19F1</tstamp>
+    </comp>
+    <comp ref="P29">
+      <value>PB13</value>
+      <footprint>kicad:TOUCH_ARRAY_8_BOT</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6E19E7</tstamp>
+    </comp>
+    <comp ref="P27">
+      <value>PB12</value>
+      <footprint>kicad:TOUCH_ARRAY_8_BOT</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6DF3CC</tstamp>
+    </comp>
+    <comp ref="P25">
+      <value>PB11</value>
+      <footprint>kicad:TOUCH_ARRAY_8_BOT</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6D20F1</tstamp>
+    </comp>
+    <comp ref="P22">
+      <value>PB10</value>
+      <footprint>kicad:TOUCH_ARRAY_8_TOP</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6CF7F9</tstamp>
+    </comp>
+    <comp ref="P20">
+      <value>PB9</value>
+      <footprint>kicad:TOUCH_ARRAY_8_TOP</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6CF7EF</tstamp>
+    </comp>
+    <comp ref="P18">
+      <value>PB8</value>
+      <footprint>kicad:TOUCH_ARRAY_8_TOP</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6CF7E5</tstamp>
+    </comp>
+    <comp ref="P16">
+      <value>PB7</value>
+      <footprint>kicad:TOUCH_ARRAY_8_TOP</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6CF7DB</tstamp>
+    </comp>
+    <comp ref="P14">
+      <value>PB6</value>
+      <footprint>kicad:TOUCH_ARRAY_8_TOP</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6CDD0B</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>PB5</value>
+      <footprint>kicad:TOUCH_ARRAY_8_TOP</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6CDD01</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>PB4</value>
+      <footprint>kicad:TOUCH_ARRAY_8_TOP</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6CBD76</tstamp>
+    </comp>
+    <comp ref="P23">
+      <value>TA10</value>
+      <footprint>kicad:TOUCH_MARK</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6C981E</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>PB3</value>
+      <footprint>kicad:TOUCH_ARRAY_8_TOP</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6C8E2B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>STM32F042C4Tx</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf</datasheet>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/ST-Microelectronics_STMicroelectronics_STM32F042C6T6_STM32F042C6T6_C88447.html</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32F0" part="STM32F042C4Tx" description="ARM Cortex-M0 MCU, 16KB flash, 6KB RAM, 48MHz, 2-3.6V, 38 GPIO, LQFP-48"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6BDE39</tstamp>
+    </comp>
+    <comp ref="P28">
+      <value>S0</value>
+      <footprint>kicad:TOUCH_SLIDER_CHEVRON</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E703B01</tstamp>
+    </comp>
+    <comp ref="P17">
+      <value>S5</value>
+      <footprint>kicad:TOUCH_SLIDER_CHEVRON</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E703B0B</tstamp>
+    </comp>
+    <comp ref="P19">
+      <value>S4</value>
+      <footprint>kicad:TOUCH_SLIDER_CHEVRON</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E703B15</tstamp>
+    </comp>
+    <comp ref="P21">
+      <value>S3</value>
+      <footprint>kicad:TOUCH_SLIDER_CHEVRON</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E70608E</tstamp>
+    </comp>
+    <comp ref="P24">
+      <value>S2</value>
+      <footprint>kicad:TOUCH_SLIDER_CHEVRON</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E706098</tstamp>
+    </comp>
+    <comp ref="P26">
+      <value>S1</value>
+      <footprint>kicad:TOUCH_SLIDER_CHEVRON</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7060A2</tstamp>
+    </comp>
+    <comp ref="P15">
+      <value>S1</value>
+      <footprint>kicad:TOUCH_SLIDER_CHEVRON</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E716EC0</tstamp>
+    </comp>
+    <comp ref="P13">
+      <value>S3</value>
+      <footprint>kicad:TOUCH_SLIDER_CHEVRON</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E71A26B</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>S0</value>
+      <footprint>kicad:TOUCH_SLIDER_CHEVRON</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E71CA68</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>S4</value>
+      <footprint>kicad:TOUCH_SLIDER_CHEVRON</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E71EFD7</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>S2</value>
+      <footprint>kicad:TOUCH_SLIDER_CHEVRON</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E727E41</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>S0</value>
+      <footprint>kicad:TOUCH_SLIDER_CHEVRON</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7258C6</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>S5</value>
+      <footprint>kicad:TOUCH_SLIDER_CHEVRON</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7239BD</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>S2</value>
+      <footprint>kicad:TOUCH_SLIDER_CHEVRON</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E721A2E</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">USE_STOCK</field>
+      </fields>
+      <libsource lib="5050RGB" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E73FDD4</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">USE_STOCK</field>
+      </fields>
+      <libsource lib="5050RGB" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E74529D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">USE_STOCK</field>
+      </fields>
+      <libsource lib="5050RGB" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E753683</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AMS1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AZ1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_Slkor-SLKORMICRO-Elec-AMS1117-3-3_C426566.html</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AZ1117-3.3" description="1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E766844</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-B_C114586.html</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E77100D</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">USE_STOCK</field>
+      </fields>
+      <libsource lib="5050RGB" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E75A58D</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-B_C114586.html</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E78A68A</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-B_C114586.html</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E78B915</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-B_C114586.html</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E78C83B</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-B_C114586.html</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E78D622</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-B_C114586.html</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E78E4AA</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>PGM</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/Pin-Header-Female-Header_MINTRON-MTP125-1105S1_C358687.html</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7B68A3</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>TACTILE</value>
+      <footprint>kicad:TACTILE10B</footprint>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/Tactile-Switches_SHOU-HAN-TS665TP_C412375.html</field>
+      </fields>
+      <libsource lib="tactile" part="TACTILE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7EC9B6</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">USE_STOCK</field>
+      </fields>
+      <libsource lib="5050RGB" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7EFA86</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">USE_STOCK</field>
+      </fields>
+      <libsource lib="5050RGB" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E802705</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">USE_STOCK</field>
+      </fields>
+      <libsource lib="5050RGB" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E83D71C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_Molex-105017-0001</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-MICRO5-9mmusb_C393940.html</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8DE24D</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>USB_PROTECTION</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/TVS_Silergy_CS0816_CS0816_C178230.html</field>
+      </fields>
+      <libsource lib="usb-prot-ip4220cz6" part="USB-PROT-IP4220CZ6" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F96C8</tstamp>
+    </comp>
+    <comp ref="P37">
+      <value>CONN_1</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E91C26E</tstamp>
+    </comp>
+    <comp ref="P36">
+      <value>CONN_1</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E91E901</tstamp>
+    </comp>
+    <comp ref="P35">
+      <value>CONN_1</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E91F41A</tstamp>
+    </comp>
+    <comp ref="P34">
+      <value>CONN_1</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="5050RGB" part="CONN_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E91F9ED</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>AM4311T42A0</value>
+      <footprint>kicad:PATRON-MIC-AM4311T42A0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/Electret-Condenser-Microphone_Partron_AM4311T42A0_Partron-AM4311T42A0_C267056.html</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E92F76C</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LTR-553ALS-WA</value>
+      <footprint>kicad:LTR-553ALS-WA-LITE-ON-AMBIENT</footprint>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/New-Arrivals_Lite-On-LTR-553ALS-WA_C408178.html</field>
+      </fields>
+      <libsource lib="kicad" part="LTR-553ALS-WA-LITE-ON-AMBIENT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E95CF1C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">USE_STOCK</field>
+      </fields>
+      <libsource lib="5050RGB" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9A0C06</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">USE_STOCK</field>
+      </fields>
+      <libsource lib="5050RGB" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9A410A</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">USE_STOCK</field>
+      </fields>
+      <libsource lib="5050RGB" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9B72FA</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">USE_STOCK</field>
+      </fields>
+      <libsource lib="5050RGB" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9C7B27</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>EXT</value>
+      <footprint>kicad:RIBBON6SMT</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">https://lcsc.com/product-detail/Pin-Header-Female-Header_BOOMELE-Boom-Precision-Elec-C192301_C192301.html</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA0D6FC</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">USE_STOCK</field>
+      </fields>
+      <libsource lib="5050RGB" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA94976</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="5050RGB" part="C">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="5050RGB" part="CONN_1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="5050RGB" part="R">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F0" part="STM32F042C4Tx">
+      <aliases>
+        <alias>STM32F042C6Tx</alias>
+      </aliases>
+      <description>ARM Cortex-M0 MCU, 16KB flash, 6KB RAM, 48MHz, 2-3.6V, 38 GPIO, LQFP-48</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf</docs>
+      <footprints>
+        <fp>LQFP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F042C4Tx</field>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14" type="BiDi"/>
+        <pin num="4" name="PC15" type="BiDi"/>
+        <pin num="5" name="PF0" type="input"/>
+        <pin num="6" name="PF1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="PA0" type="BiDi"/>
+        <pin num="11" name="PA1" type="BiDi"/>
+        <pin num="12" name="PA2" type="BiDi"/>
+        <pin num="13" name="PA3" type="BiDi"/>
+        <pin num="14" name="PA4" type="BiDi"/>
+        <pin num="15" name="PA5" type="BiDi"/>
+        <pin num="16" name="PA6" type="BiDi"/>
+        <pin num="17" name="PA7" type="BiDi"/>
+        <pin num="18" name="PB0" type="BiDi"/>
+        <pin num="19" name="PB1" type="BiDi"/>
+        <pin num="20" name="PB2" type="BiDi"/>
+        <pin num="21" name="PB10" type="BiDi"/>
+        <pin num="22" name="PB11" type="BiDi"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12" type="BiDi"/>
+        <pin num="26" name="PB13" type="BiDi"/>
+        <pin num="27" name="PB14" type="BiDi"/>
+        <pin num="28" name="PB15" type="BiDi"/>
+        <pin num="29" name="PA8" type="BiDi"/>
+        <pin num="30" name="PA9" type="BiDi"/>
+        <pin num="31" name="PA10" type="BiDi"/>
+        <pin num="32" name="PA11" type="BiDi"/>
+        <pin num="33" name="PA12" type="BiDi"/>
+        <pin num="34" name="PA13" type="BiDi"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDDIO2" type="power_in"/>
+        <pin num="37" name="PA14" type="BiDi"/>
+        <pin num="38" name="PA15" type="BiDi"/>
+        <pin num="39" name="PB3" type="BiDi"/>
+        <pin num="40" name="PB4" type="BiDi"/>
+        <pin num="41" name="PB5" type="BiDi"/>
+        <pin num="42" name="PB6" type="BiDi"/>
+        <pin num="43" name="PB7" type="BiDi"/>
+        <pin num="44" name="PF11" type="BiDi"/>
+        <pin num="45" name="PB8" type="BiDi"/>
+        <pin num="46" name="PB9" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AZ1117-1.2">
+      <aliases>
+        <alias>AZ1117-1.5</alias>
+        <alias>AZ1117-1.8</alias>
+        <alias>AZ1117-2.5</alias>
+        <alias>AZ1117-2.85</alias>
+        <alias>AZ1117-3.3</alias>
+        <alias>AZ1117-5.0</alias>
+      </aliases>
+      <description>1A 20V Fixed LDO Linear Regulator, 1.2V, SOT-89/SOT-223/TO-220/TO-252/TO-263</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AZ1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>SOT?89*</fp>
+        <fp>TO?220*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AZ1117-1.2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="kicad" part="LTR-553ALS-WA-LITE-ON-AMBIENT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTR-553ALS-WA-LITE-ON-AMBIENT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="BiDi"/>
+        <pin num="2" name="INT" type="BiDi"/>
+        <pin num="3" name="LDR" type="BiDi"/>
+        <pin num="4" name="LEDK" type="BiDi"/>
+        <pin num="5" name="LEDA" type="BiDi"/>
+        <pin num="6" name="GND" type="BiDi"/>
+        <pin num="7" name="SCL" type="BiDi"/>
+        <pin num="8" name="VDD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="tactile" part="TACTILE">
+      <fields>
+        <field name="Reference">SW?</field>
+        <field name="Value">TACTILE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="usb-prot-ip4220cz6" part="USB-PROT-IP4220CZ6">
+      <footprints>
+        <fp>SOT-23-6</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USB-PROT-IP4220CZ6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="IO2" type="input"/>
+        <pin num="4" name="IO3" type="input"/>
+        <pin num="5" name="Vp" type="input"/>
+        <pin num="6" name="IO4" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="5050RGB">
+      <uri>C:/Projects/kicad/5050RGB.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:\Program Files\KiCad\share\kicad\library/LED.lib</uri>
+    </library>
+    <library logical="MCU_ST_STM32F0">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_ST_STM32F0.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="kicad">
+      <uri>C:/Projects/kicad/kicad.lib</uri>
+    </library>
+    <library logical="tactile">
+      <uri>C:/Projects/kicad/tactile.lib</uri>
+    </library>
+    <library logical="usb-prot-ip4220cz6">
+      <uri>C:/Projects/kicad/usb-prot-ip4220cz6.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="P36" pin="1"/>
+      <node ref="M1" pin="2"/>
+      <node ref="P34" pin="1"/>
+      <node ref="P35" pin="1"/>
+      <node ref="M1" pin="3"/>
+      <node ref="P37" pin="1"/>
+      <node ref="D4" pin="3"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J3" pin="5"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="D1" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="D3" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="35"/>
+      <node ref="U1" pin="47"/>
+      <node ref="D2" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="D6" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J2" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="D5" pin="3"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="24"/>
+      <node ref="U1" pin="48"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="36"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="R4" pin="1"/>
+      <node ref="J3" pin="6"/>
+      <node ref="R5" pin="1"/>
+      <node ref="M1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="5" name="D+">
+      <node ref="J2" pin="3"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="6" name="D-">
+      <node ref="U1" pin="32"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="3"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="4"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad2)">
+      <node ref="D2" pin="4"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D3-Pad2)">
+      <node ref="D4" pin="4"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="D5" pin="4"/>
+    </net>
+    <net code="12" name="Net-(D5-Pad2)">
+      <node ref="D6" pin="4"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="13" name="BOOT0">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="44"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="15" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="16" name="SWC">
+      <node ref="U1" pin="37"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="17" name="SWD">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="18" name="RESET">
+      <node ref="U1" pin="7"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="20" name="PC15">
+      <node ref="U1" pin="4"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="21" name="SCL">
+      <node ref="J3" pin="3"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="22" name="PC14">
+      <node ref="J3" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="23" name="ADC">
+      <node ref="M1" pin="4"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="24" name="SDA">
+      <node ref="J3" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="25" name="PC13">
+      <node ref="U4" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="26" name="SLIDER5">
+      <node ref="P17" pin="1"/>
+      <node ref="U1" pin="15"/>
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="27" name="Net-(P30-Pad1)">
+      <node ref="P30" pin="1"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="28" name="Net-(P29-Pad1)">
+      <node ref="P29" pin="1"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="29" name="Net-(P27-Pad1)">
+      <node ref="U1" pin="25"/>
+      <node ref="P27" pin="1"/>
+    </net>
+    <net code="30" name="Net-(P25-Pad1)">
+      <node ref="U1" pin="22"/>
+      <node ref="P25" pin="1"/>
+    </net>
+    <net code="31" name="Net-(P22-Pad1)">
+      <node ref="U1" pin="21"/>
+      <node ref="P22" pin="1"/>
+    </net>
+    <net code="32" name="Net-(P4-Pad1)">
+      <node ref="U1" pin="19"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="33" name="Net-(P2-Pad1)">
+      <node ref="U1" pin="18"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="34" name="TMPA9">
+      <node ref="U1" pin="30"/>
+      <node ref="R3" pin="1"/>
+      <node ref="P33" pin="1"/>
+    </net>
+    <net code="35" name="TMPA8">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="29"/>
+      <node ref="P32" pin="1"/>
+    </net>
+    <net code="36" name="WS2812">
+      <node ref="U1" pin="17"/>
+      <node ref="D1" pin="4"/>
+    </net>
+    <net code="37" name="Net-(P31-Pad1)">
+      <node ref="P31" pin="1"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad38)">
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="39" name="Net-(P23-Pad1)">
+      <node ref="U1" pin="31"/>
+      <node ref="P23" pin="1"/>
+    </net>
+    <net code="40" name="Net-(P20-Pad1)">
+      <node ref="U1" pin="46"/>
+      <node ref="P20" pin="1"/>
+    </net>
+    <net code="41" name="Net-(P18-Pad1)">
+      <node ref="P18" pin="1"/>
+      <node ref="U1" pin="45"/>
+    </net>
+    <net code="42" name="Net-(P16-Pad1)">
+      <node ref="P16" pin="1"/>
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="43" name="Net-(P14-Pad1)">
+      <node ref="P14" pin="1"/>
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="44" name="Net-(P12-Pad1)">
+      <node ref="U1" pin="41"/>
+      <node ref="P12" pin="1"/>
+    </net>
+    <net code="45" name="Net-(P10-Pad1)">
+      <node ref="P10" pin="1"/>
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="46" name="Net-(P8-Pad1)">
+      <node ref="P8" pin="1"/>
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="47" name="Net-(P6-Pad1)">
+      <node ref="U1" pin="20"/>
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="48" name="SLIDER3">
+      <node ref="P21" pin="1"/>
+      <node ref="P13" pin="1"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="49" name="SLIDER1">
+      <node ref="P26" pin="1"/>
+      <node ref="P15" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="50" name="SLIDER2">
+      <node ref="P7" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P24" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="51" name="SLIDER4">
+      <node ref="P9" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="P19" pin="1"/>
+    </net>
+    <net code="52" name="SLIDER0">
+      <node ref="P28" pin="1"/>
+      <node ref="P11" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+  </nets>
+</export>
