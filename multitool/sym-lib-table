@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name tensigral_lamp_hardware-rescue)(type Legacy)(uri ${KIPRJMOD}/tensigral_lamp_hardware-rescue.lib)(options "")(descr ""))
+  (lib (name multitool-rescue)(type Legacy)(uri ${KIPRJMOD}/multitool-rescue.lib)(options "")(descr ""))
+  (lib (name EG27324)(type Legacy)(uri ${KIPRJMOD}/EG27324.lib)(options "")(descr ""))
 )

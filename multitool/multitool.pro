@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=tensigral_lamp_hardware.net
+LastNetListRead=multitool.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
