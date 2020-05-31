@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 7)
+    (drawings 8)
     (tracks 0)
     (zones 0)
     (modules 75)
@@ -3368,6 +3368,9 @@
     )
   )
 
+  (gr_text UNTESTED (at 221.996 30.48) (layer F.Fab)
+    (effects (font (size 10 10) (thickness 1)))
+  )
   (gr_circle (center 47.16 56.925) (end 47.46 56.975) (layer F.SilkS) (width 0.12) (tstamp 5ED34B6E))
   (gr_circle (center 52.96 80.7) (end 53.16 80.7) (layer F.SilkS) (width 0.12))
   (gr_circle (center 32.96 89.9) (end 33.16 89.9) (layer F.SilkS) (width 0.12))

@@ -1506,8 +1506,6 @@ F 5 "0.00229" H 3450 3050 50  0001 C CNN "Cost100"
 	1    3450 3050
 	0    1    1    0   
 $EndComp
-Text Notes 7150 3200 0    50   ~ 0
-UPDI Programming circuit for ATTiny202
 Text Notes 4600 1800 0    50   ~ 0
 PA7
 Text Notes 6200 1900 2    50   ~ 0
