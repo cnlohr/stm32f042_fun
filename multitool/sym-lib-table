@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name multitool-rescue)(type Legacy)(uri ${KIPRJMOD}/multitool-rescue.lib)(options "")(descr ""))
   (lib (name EG27324)(type Legacy)(uri ${KIPRJMOD}/EG27324.lib)(options "")(descr ""))
+  (lib (name NCE2003)(type Legacy)(uri ${KIPRJMOD}/NCE2003.lib)(options "")(descr ""))
 )
