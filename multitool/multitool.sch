@@ -870,14 +870,14 @@ $EndComp
 $Comp
 L Device:D_Zener D4
 U 1 1 5EE28EAC
-P 7350 5000
-F 0 "D4" V 7304 5079 50  0000 L CNN
-F 1 "5.1V" V 7395 5079 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 7350 5000 50  0001 C CNN
-F 3 "~" H 7350 5000 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Zener-Diodes_Shandong-Jingdao-Microelectronics-BZT52C5V1_C353516.html" V 7350 5000 50  0001 C CNN "LCSC"
-F 5 "0.01" V 7350 5000 50  0001 C CNN "Cost100"
-	1    7350 5000
+P 7400 5000
+F 0 "D4" V 7354 5079 50  0000 L CNN
+F 1 "5.1V" V 7445 5079 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 7400 5000 50  0001 C CNN
+F 3 "~" H 7400 5000 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Zener-Diodes_Shandong-Jingdao-Microelectronics-BZT52C5V1_C353516.html" V 7400 5000 50  0001 C CNN "LCSC"
+F 5 "0.01" V 7400 5000 50  0001 C CNN "Cost100"
+	1    7400 5000
 	0    1    1    0   
 $EndComp
 Text GLabel 8300 4150 0    50   Input ~ 0
@@ -1811,23 +1811,10 @@ Wire Wire Line
 Connection ~ 3200 2050
 Text GLabel 2100 3650 0    50   Input ~ 0
 SPISCK
-Text GLabel 1700 3700 0    50   Input ~ 0
+Text GLabel 2000 3800 0    50   Input ~ 0
 SPIMOSICOMB
 Text Notes 3050 4700 0    50   ~ 0
 U2TX can also function as SPI_NSS\nU2RX is 5V tolerant\nSPISCK is 5V tolerant
-$Comp
-L multitool-rescue:R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue R5
-U 1 1 5ED9A86E
-P 1850 3800
-F 0 "R5" V 1850 3600 50  0000 R CNN
-F 1 "100" V 1850 3800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1780 3800 50  0001 C CNN
-F 3 "~" H 1850 3800 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.html" H 1850 3800 50  0001 C CNN "LCSC"
-F 5 "0.002" H 1850 3800 50  0001 C CNN "Cost100"
-	1    1850 3800
-	0    1    1    0   
-$EndComp
 Text GLabel 3100 3450 2    50   Input ~ 0
 SW1VPP
 Text GLabel 3100 3550 2    50   Input ~ 0
@@ -1917,8 +1904,6 @@ Text Notes 4850 2550 0    50   ~ 0
 2x Servo, RS-485, DMX-512, IROUT
 Text GLabel 3400 3250 2    50   Input ~ 0
 SPIMISO
-Wire Wire Line
-	1700 3700 1700 3800
 Wire Wire Line
 	2000 3800 2050 3800
 Wire Wire Line
@@ -2136,7 +2121,7 @@ F 5 "0.074603" H 5500 1050 50  0001 C CNN "Cost100"
 	1    5500 1050
 	-1   0    0    -1  
 $EndComp
-Text GLabel 5700 2200 2    50   Input ~ 0
+Text GLabel 6000 2200 2    50   Input ~ 0
 U2RTS
 $Comp
 L multitool-rescue:R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue R15
@@ -2390,8 +2375,6 @@ F 3 "" H 5200 1800 50  0001 C CNN
 	1    5200 1800
 	0    1    1    0   
 $EndComp
-Text GLabel 3100 2750 2    50   Input ~ 0
-U2RTS
 Text GLabel 5200 2000 0    50   Input ~ 0
 U2TX
 Text Notes 4700 2050 0    50   ~ 0
@@ -2401,40 +2384,40 @@ U2RX
 $Comp
 L Device:D_Zener D7
 U 1 1 5EF1644C
-P 7050 5000
-F 0 "D7" V 7004 5079 50  0000 L CNN
-F 1 "5.1V" V 7095 5079 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 7050 5000 50  0001 C CNN
-F 3 "~" H 7050 5000 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Zener-Diodes_Shandong-Jingdao-Microelectronics-BZT52C5V1_C353516.html" V 7050 5000 50  0001 C CNN "LCSC"
-F 5 "0.01" V 7050 5000 50  0001 C CNN "Cost100"
-	1    7050 5000
+P 7100 5000
+F 0 "D7" V 7054 5079 50  0000 L CNN
+F 1 "5.1V" V 7145 5079 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 7100 5000 50  0001 C CNN
+F 3 "~" H 7100 5000 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Zener-Diodes_Shandong-Jingdao-Microelectronics-BZT52C5V1_C353516.html" V 7100 5000 50  0001 C CNN "LCSC"
+F 5 "0.01" V 7100 5000 50  0001 C CNN "Cost100"
+	1    7100 5000
 	0    1    1    0   
 $EndComp
-Text GLabel 7050 4850 1    50   Input ~ 0
+Text GLabel 7100 4850 1    50   Input ~ 0
 SPISCK
 $Comp
 L multitool-rescue:GND-power-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue #PWR0158
 U 1 1 5EF1B8F6
-P 7050 5150
-F 0 "#PWR0158" H 7050 4900 50  0001 C CNN
-F 1 "GND" V 7055 5022 50  0000 R CNN
-F 2 "" H 7050 5150 50  0001 C CNN
-F 3 "" H 7050 5150 50  0001 C CNN
-	1    7050 5150
+P 7100 5150
+F 0 "#PWR0158" H 7100 4900 50  0001 C CNN
+F 1 "GND" V 7105 5022 50  0000 R CNN
+F 2 "" H 7100 5150 50  0001 C CNN
+F 3 "" H 7100 5150 50  0001 C CNN
+	1    7100 5150
 	1    0    0    -1  
 $EndComp
-Text GLabel 7350 4850 1    50   Input ~ 0
+Text GLabel 7400 4850 1    50   Input ~ 0
 U2RX
 $Comp
 L multitool-rescue:GND-power-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue #PWR0159
 U 1 1 5EFFF130
-P 7350 5150
-F 0 "#PWR0159" H 7350 4900 50  0001 C CNN
-F 1 "GND" V 7355 5022 50  0000 R CNN
-F 2 "" H 7350 5150 50  0001 C CNN
-F 3 "" H 7350 5150 50  0001 C CNN
-	1    7350 5150
+P 7400 5150
+F 0 "#PWR0159" H 7400 4900 50  0001 C CNN
+F 1 "GND" V 7405 5022 50  0000 R CNN
+F 2 "" H 7400 5150 50  0001 C CNN
+F 3 "" H 7400 5150 50  0001 C CNN
+	1    7400 5150
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -2561,4 +2544,45 @@ Wire Wire Line
 	9250 5350 9250 4950
 Text GLabel 9250 5350 0    50   Input ~ 0
 DRIVELO
+Text GLabel 6800 4850 1    50   Input ~ 0
+SPIMOSICOMB
+$Comp
+L Device:D_Zener D8
+U 1 1 5EDD5FBF
+P 6800 5000
+F 0 "D8" V 6754 5079 50  0000 L CNN
+F 1 "5.1V" V 6845 5079 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6800 5000 50  0001 C CNN
+F 3 "~" H 6800 5000 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Zener-Diodes_Shandong-Jingdao-Microelectronics-BZT52C5V1_C353516.html" V 6800 5000 50  0001 C CNN "LCSC"
+F 5 "0.01" V 6800 5000 50  0001 C CNN "Cost100"
+	1    6800 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L multitool-rescue:GND-power-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue #PWR0121
+U 1 1 5EDD6BAA
+P 6800 5150
+F 0 "#PWR0121" H 6800 4900 50  0001 C CNN
+F 1 "GND" V 6805 5022 50  0000 R CNN
+F 2 "" H 6800 5150 50  0001 C CNN
+F 3 "" H 6800 5150 50  0001 C CNN
+	1    6800 5150
+	1    0    0    -1  
+$EndComp
+Text GLabel 3100 2750 2    50   Input ~ 0
+U2RTS
+$Comp
+L multitool-rescue:R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue R5
+U 1 1 5EE246C0
+P 5850 2200
+F 0 "R5" V 5850 2750 50  0000 R CNN
+F 1 "100" V 5850 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5780 2200 50  0001 C CNN
+F 3 "~" H 5850 2200 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.html" H 5850 2200 50  0001 C CNN "LCSC"
+F 5 "0.002" H 5850 2200 50  0001 C CNN "Cost100"
+	1    5850 2200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
