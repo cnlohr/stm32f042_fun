@@ -15,7 +15,7 @@ OBJCOPYFLAGS = -O binary
 BIN=$(CP) -O ihex 
 
 DEFS = -DSTM32F042
-#DEFS := $(DEFS) -DDEBUG
+DEFS := $(DEFS) -DDEBUG
 
 MCU = cortex-m0
 MCFLAGS = -mcpu=$(MCU) 
@@ -43,6 +43,8 @@ SRC = main.c \
 	touch.c \
 	adc.c \
 	ws2812.c \
+	static_i2c.c \
+	LTR-553ALS-WA.c \
 	STM32F0xx_StdPeriph_Driver/src/stm32f0xx_rcc.c \
 	STM32F0xx_StdPeriph_Driver/src/stm32f0xx_adc.c \
 	STM32F0xx_StdPeriph_Driver/src/stm32f0xx_gpio.c \

@@ -8,6 +8,7 @@
 #include "touch.h"
 #include <string.h>
 #include <ws2812.h>
+#include <stdio.h>
 
 RCC_ClocksTypeDef RCC_Clocks;
 
@@ -109,7 +110,7 @@ int main()
 	ConfigureGPIO( 0x07, INOUT_OUT );	//Also do this first to enable port A.
 
 
-//	init_touch();
+	init_touch();
 
 	setup_adcs();
 
@@ -125,6 +126,8 @@ int main()
 	}
 
 	TriggerDMA();
+
+	InitLTR_553ALS_WA();
 
 	uint8_t counts[NUM_TOUCH];
 
@@ -142,8 +145,9 @@ int main()
 		{
 			//ENDPOINT1_SIZE is 64
 			//NUM_TOUCH is 25
-			//for( i = 0; i < 25; i++ ) counts[i] = i;
+#ifdef TOUCH_TEST
 			memcpy( senddata, counts, NUM_TOUCH );
+#elif defined(ADC_TEST)  //for ADC data (didn't work)
 			uint16_t * h = (uint16_t*)(&senddata[NUM_TOUCH+1]);
 			for( i = 0; i < (ENDPOINT1_SIZE-NUM_TOUCH-1)/2; i++ )
 			{
@@ -155,8 +159,11 @@ int main()
 			{
 				*(h++) = 0;
 			}
+#else
+			for( i = 0; i < 25; i++ ) counts[i] = i;
+#endif
 			usb_data( senddata, ENDPOINT1_SIZE );
-//			run_touch( counts );
+			run_touch( counts );
 		}
 		//GPIOOn( 0x05 );
 		//GPIOOff( 0x05 );

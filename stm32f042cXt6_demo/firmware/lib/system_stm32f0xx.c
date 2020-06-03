@@ -358,8 +358,10 @@ static void SetSysClock(void)
     SystemBootFault( HSEStatus, StartUpCounter );
   }
 #elif USE_HSI48
-  RCC->CR2 |= 0x00010000; //HSI48 on.
-  RCC->CFGR |= 0x00000003;  //Use HSI48, divide by 1 for AHB.
+  RCC->CR2 = 0x00010000; //HSI48 on.
+  while( !( RCC->CR2 & 0x00020000 ) );
+  RCC->CFGR = 0x00000003;  //Use HSI48, divide by 1 for AHB.
+  RCC->CFGR2 = 0;
 #elif USE_HSI_PLL
   //Otherwise configure the PLL to use the HSI
   RCC->CR |= 0x0000001; //HSI ON
