@@ -2547,10 +2547,10 @@ DRIVELO
 Text GLabel 6800 4850 1    50   Input ~ 0
 SPIMOSICOMB
 $Comp
-L Device:D_Zener D?
+L Device:D_Zener D8
 U 1 1 5EDD5FBF
 P 6800 5000
-F 0 "D?" V 6754 5079 50  0000 L CNN
+F 0 "D8" V 6754 5079 50  0000 L CNN
 F 1 "5.1V" V 6845 5079 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 6800 5000 50  0001 C CNN
 F 3 "~" H 6800 5000 50  0001 C CNN
@@ -2560,10 +2560,10 @@ F 5 "0.01" V 6800 5000 50  0001 C CNN "Cost100"
 	0    1    1    0   
 $EndComp
 $Comp
-L multitool-rescue:GND-power-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue #PWR?
+L multitool-rescue:GND-power-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue #PWR0121
 U 1 1 5EDD6BAA
 P 6800 5150
-F 0 "#PWR?" H 6800 4900 50  0001 C CNN
+F 0 "#PWR0121" H 6800 4900 50  0001 C CNN
 F 1 "GND" V 6805 5022 50  0000 R CNN
 F 2 "" H 6800 5150 50  0001 C CNN
 F 3 "" H 6800 5150 50  0001 C CNN
@@ -2573,10 +2573,10 @@ $EndComp
 Text GLabel 3100 2750 2    50   Input ~ 0
 U2RTS
 $Comp
-L multitool-rescue:R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue R?
+L multitool-rescue:R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue R5
 U 1 1 5EE246C0
 P 5850 2200
-F 0 "R?" V 5850 2750 50  0000 R CNN
+F 0 "R5" V 5850 2750 50  0000 R CNN
 F 1 "100" V 5850 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5780 2200 50  0001 C CNN
 F 3 "~" H 5850 2200 50  0001 C CNN

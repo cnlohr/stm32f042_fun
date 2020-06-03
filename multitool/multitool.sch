@@ -1000,8 +1000,6 @@ F 3 "" H 5200 2400 50  0001 C CNN
 $EndComp
 Text GLabel 5700 1900 2    50   Input ~ 0
 PD_VDD
-Text GLabel 5700 2400 2    50   Input ~ 0
-MAGICPIN
 Text GLabel 5700 2300 2    50   Input ~ 0
 PD_VPP
 $Comp
@@ -2585,4 +2583,6 @@ F 5 "0.002" H 5850 2200 50  0001 C CNN "Cost100"
 	1    5850 2200
 	0    1    1    0   
 $EndComp
+Text GLabel 5700 2400 2    50   Input ~ 0
+U2CK
 $EndSCHEMATC
