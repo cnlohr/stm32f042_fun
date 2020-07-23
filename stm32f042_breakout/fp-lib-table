@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name POGO-5)(type KiCad)(uri ${KIPRJMOD}/POGO-5.pretty)(options "")(descr ""))
+  (lib (name MicroSD-HYC77-TF09-200)(type KiCad)(uri ${KIPRJMOD}/MicroSD-HYC77-TF09-200.pretty)(options "")(descr ""))
+)
