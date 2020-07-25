@@ -391,7 +391,7 @@ L Device:C_Small C4
 U 1 1 5F1D6414
 P 1100 900
 F 0 "C4" H 1050 1000 50  0000 R CNN
-F 1 "100n" H 1300 800 50  0000 R CNN
+F 1 ".1u" H 1300 800 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1100 900 50  0001 C CNN
 F 3 "~" H 1100 900 50  0001 C CNN
 F 4 ".003049" H 1100 900 50  0001 C CNN "Cost100"
@@ -426,7 +426,7 @@ L Device:C_Small C3
 U 1 1 5F1D69ED
 P 1050 3400
 F 0 "C3" H 1000 3500 50  0000 R CNN
-F 1 "100n" H 1250 3300 50  0000 R CNN
+F 1 ".1u" H 1250 3300 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1050 3400 50  0001 C CNN
 F 3 "~" H 1050 3400 50  0001 C CNN
 F 4 ".003049" H 1050 3400 50  0001 C CNN "Cost100"
@@ -553,7 +553,7 @@ L Device:C_Small C8
 U 1 1 5F1FB9E4
 P 8350 3300
 F 0 "C8" H 8300 3400 50  0000 R CNN
-F 1 "100n" H 8550 3200 50  0000 R CNN
+F 1 ".1u" H 8550 3200 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8350 3300 50  0001 C CNN
 F 3 "~" H 8350 3300 50  0001 C CNN
 F 4 ".003049" H 8350 3300 50  0001 C CNN "Cost100"
@@ -646,9 +646,6 @@ $EndComp
 Text GLabel 2650 2700 0    50   Input ~ 0
 BOOT0
 Wire Wire Line
-	2200 1700 2650 1700
-Connection ~ 2200 1700
-Wire Wire Line
 	1850 1700 1850 1600
 Connection ~ 1850 1700
 Wire Wire Line
@@ -728,7 +725,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 1600 2200 1700
 Wire Wire Line
-	1850 1600 2200 1600
+	1850 1600 2000 1600
 Wire Wire Line
 	1850 1800 1850 1700
 $Comp
@@ -926,7 +923,7 @@ L Connector_Generic:Conn_02x09_Odd_Even J4
 U 1 1 5F30EE76
 P 5100 2900
 F 0 "J4" H 5150 3517 50  0000 C CNN
-F 1 "PORTB" H 5150 3426 50  0000 C CNN
+F 1 "PORTA" H 5150 3426 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical_SMD" H 5100 2900 50  0001 C CNN
 F 3 "~" H 5100 2900 50  0001 C CNN
 F 4 ".04211" H 5100 2900 50  0001 C CNN "Cost100"
@@ -1090,7 +1087,7 @@ L Device:C_Small C9
 U 1 1 5F3F74ED
 P 3900 850
 F 0 "C9" H 3850 950 50  0000 R CNN
-F 1 "100n" H 4100 750 50  0000 R CNN
+F 1 ".1u" H 4100 750 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3900 850 50  0001 C CNN
 F 3 "~" H 3900 850 50  0001 C CNN
 F 4 ".003049" H 3900 850 50  0001 C CNN "Cost100"
@@ -1185,7 +1182,7 @@ U 1 1 5F41FD51
 P 6350 4400
 F 0 "J13" H 6268 4175 50  0000 C CNN
 F 1 "MNT" H 6268 4266 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 6350 4400 50  0001 C CNN
+F 2 "stm32f042_breakout:stm32f042_breakout_pin" H 6350 4400 50  0001 C CNN
 F 3 "~" H 6350 4400 50  0001 C CNN
 	1    6350 4400
 	-1   0    0    1   
@@ -1196,7 +1193,7 @@ U 1 1 5F41A8FE
 P 5750 3900
 F 0 "J10" H 5668 3675 50  0000 C CNN
 F 1 "MNT" H 5668 3766 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 5750 3900 50  0001 C CNN
+F 2 "stm32f042_breakout:stm32f042_breakout_pin" H 5750 3900 50  0001 C CNN
 F 3 "~" H 5750 3900 50  0001 C CNN
 	1    5750 3900
 	-1   0    0    1   
@@ -1207,7 +1204,7 @@ U 1 1 5F41EC21
 P 5750 4200
 F 0 "J11" H 5668 3975 50  0000 C CNN
 F 1 "MNT" H 5668 4066 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 5750 4200 50  0001 C CNN
+F 2 "stm32f042_breakout:stm32f042_breakout_pin" H 5750 4200 50  0001 C CNN
 F 3 "~" H 5750 4200 50  0001 C CNN
 	1    5750 4200
 	-1   0    0    1   
@@ -1218,7 +1215,7 @@ U 1 1 5F41F3EA
 P 5750 4550
 F 0 "J12" H 5668 4325 50  0000 C CNN
 F 1 "MNT" H 5668 4416 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 5750 4550 50  0001 C CNN
+F 2 "stm32f042_breakout:stm32f042_breakout_pin" H 5750 4550 50  0001 C CNN
 F 3 "~" H 5750 4550 50  0001 C CNN
 	1    5750 4550
 	-1   0    0    1   
@@ -1229,7 +1226,7 @@ U 1 1 5F4204A8
 P 5250 4400
 F 0 "J9" H 5168 4175 50  0000 C CNN
 F 1 "MNT" H 5168 4266 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 5250 4400 50  0001 C CNN
+F 2 "stm32f042_breakout:stm32f042_breakout_pin" H 5250 4400 50  0001 C CNN
 F 3 "~" H 5250 4400 50  0001 C CNN
 	1    5250 4400
 	-1   0    0    1   
@@ -1240,9 +1237,51 @@ U 1 1 5F420B97
 P 5250 4000
 F 0 "J8" H 5168 3775 50  0000 C CNN
 F 1 "MNT" H 5168 3866 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm_Pad_Via" H 5250 4000 50  0001 C CNN
+F 2 "stm32f042_breakout:stm32f042_breakout_pin" H 5250 4000 50  0001 C CNN
 F 3 "~" H 5250 4000 50  0001 C CNN
 	1    5250 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J14
+U 1 1 5F1B7109
+P 7250 4500
+F 0 "J14" H 7168 4275 50  0000 C CNN
+F 1 "ARTWORK" H 7168 4366 50  0000 C CNN
+F 2 "stm32f042_breakout:back-artwork-cristabelle-braden-vsmall" H 7250 4500 50  0001 C CNN
+F 3 "~" H 7250 4500 50  0001 C CNN
+	1    7250 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP1
+U 1 1 5F1D47AC
+P 2150 1400
+F 0 "JP1" H 2150 1605 50  0000 C CNN
+F 1 "EN_XTAL" H 2150 1514 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 2150 1400 50  0001 C CNN
+F 3 "~" H 2150 1400 50  0001 C CNN
+	1    2150 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1400 2000 1600
+Connection ~ 2000 1600
+Wire Wire Line
+	2000 1600 2200 1600
+Wire Wire Line
+	2300 1400 2300 1700
+Wire Wire Line
+	2300 1700 2650 1700
+$Comp
+L Connector_Generic:Conn_01x01 J15
+U 1 1 5F1B9EC9
+P 7700 4500
+F 0 "J15" H 7618 4275 50  0000 C CNN
+F 1 "ARTWORK" H 7618 4366 50  0000 C CNN
+F 2 "stm32f042_breakout:leaves_front-cristabelle" H 7700 4500 50  0001 C CNN
+F 3 "~" H 7700 4500 50  0001 C CNN
+	1    7700 4500
 	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
