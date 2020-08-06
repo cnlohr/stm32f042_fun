@@ -143,7 +143,7 @@ int main( int argc, char ** argv )
 			//int color = ((x/8)&3) | (((y/16)&3)<<2);
 
 			//Purple (Not purple)
-			int color = (((x/4)^(y/4))&1)?4:3;
+			int color = (((x)^(y))&1)?1:0;
 
 			if( which == 0 )
 			{

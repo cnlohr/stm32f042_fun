@@ -2,16 +2,42 @@
 
 //Just some notes.  This is based on:
 //	 https://github.com/andysworkshop/stm32plus
+//But, heavily modified by Charles Lohr
+
 /*
 	Copyright (c) 2011-2015 Andrew Brown All rights reserved.
 
-	Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-    Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-    Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+	Heavy modificaiton:
 
-    Neither the name of stm32plus nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+	Copyright (c) 2016-2020 Charles Lohr
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ANDREW BROWN BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+	Redistribution and use in source and binary forms, with or without
+	modification, are permitted provided that the following conditions
+	are met:
+
+    Redistributions of source code must retain the above copyright
+	notice, this list of conditions and the following disclaimer.
+
+    Redistributions in binary form must reproduce the above copyright
+	notice, this list of conditions and the following disclaimer in the
+	documentation and/or other materials provided with the distribution.
+
+    Neither the name of stm32plus nor the names of its contributors may
+	be used to endorse or promote products derived from this software
+	without specific prior written permission.
+
+	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+	"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,
+	BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+	FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+	ANDREW BROWN BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+	EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+	PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+	OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+	THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+	TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+	OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+	OF SUCH DAMAGE.
  */
 
 #include <usb.h>
@@ -34,6 +60,8 @@ struct UsbInEndpointData {
 	uint16_t maxPacketSize;
 	uint16_t pmaAddress;
 };
+
+extern int sentinal;
 
 struct UsbInEndpointData _inEndpointData[2]; // 2 user endpoints in this implementation
 
@@ -386,9 +414,12 @@ void handleControlOutTransfer( )
 			case USB_REQ_SET_CONFIGURATION:
 				if( mreq == USB_REQ_RECIPIENT_DEVICE )
 				{
-					//XXX Careful: This is where the really key part is, where it opens the interrupt endpoint.
-					openTxEndpoint((&USBR->EP0R+(IN_ENDPOINT_ADDRESS&0x7f)*2),IN_ENDPOINT_ADDRESS&0x7f,USB_EP_INTERRUPT);
-					openRxEndpoint((&USBR->EP0R+(OUT_ENDPOINT_ADDRESS&0x7f)*2),OUT_ENDPOINT_ADDRESS&0x7f,USB_EP_INTERRUPT, ENDPOINT2_SIZE);
+					//XXX Careful: This is where the really key part is, where it
+					//opens the interrupt endpoint.
+					openTxEndpoint( (&USBR->EP0R+(IN_ENDPOINT_ADDRESS&0x7f)*2),
+						IN_ENDPOINT_ADDRESS&0x7f, EP_TYPE_IN );
+					openRxEndpoint( (&USBR->EP0R+(OUT_ENDPOINT_ADDRESS&0x7f)*2),
+						OUT_ENDPOINT_ADDRESS&0x7f,EP_TYPE_OUT, ENDPOINT2_SIZE );
 					usbDataOkToSend = 1;
 					//send_text( "EP setup\n" );
 				}
@@ -474,7 +505,8 @@ void handleControlOutTransfer( )
 
 	if( epr0 & USB_EP_CTR_RX )
 	{
-		//If there is a "control-out" message, then the payload of the control-out will get funneled in here.
+		//If there is a "control-out" message, then the payload of the
+		//control-out will get funneled in here.
 
 		uint16_t count;
 		count = UBgetCount( USBR_BDT[0].rx );
@@ -582,10 +614,11 @@ void onCorrectTransfer()
 	// USB_ISTR_CTR is read only and will be automatically cleared by hardware
 	// when we've processed all endpoint results
 
-	while(((irq=USBR->ISTR) & USB_ISTR_CTR)!=0) {
+	while(((irq=USBR->ISTR) & USB_ISTR_CTR)!=0)
+	{
 		endpointIndex = irq & USB_ISTR_EP_ID;
 		isOut = (irq & USB_ISTR_DIR)!=0;
-
+		
 		if(endpointIndex==0) {
 			// control endpoint events
 			if( isOut )
@@ -593,9 +626,20 @@ void onCorrectTransfer()
 			else
 				handleControlInTransfer(  );
 		} else {
+			//Some notes:
+			// * This is the conflux of some very suspsicious behavior.
+			//   where we could not make any USB out requests here when
+			//   using the interface over HIDRAW.
+			//
+			//   It was almost as though the IN interrupt was never getting
+			//   cleared out, so all OUT interrupts were failing.
+
 			reg=&USBR->EP0R+2*endpointIndex;
-			if((*reg & USB_EP_CTR_RX)!=0)
+			if((*reg & USB_EP_CTR_RX)!=0)	//XXX TODO: Consider switching this to isOut.
+			{
+				//Host->Us
 				handleEndpointOutTransfer(reg,endpointIndex);
+			}
 			if((*reg & USB_EP_CTR_TX)!=0)
 				handleEndpointInTransfer(reg,endpointIndex);
 		}
