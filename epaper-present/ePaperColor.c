@@ -103,7 +103,7 @@ void SetupEpaperDone()
 }
 
 
-static void EPD_5IN65F_Show7Block(void)
+void EPD_5IN65F_Show7Block(void)
 {
     unsigned long i,j,k;
     unsigned char const Color_seven[8] =

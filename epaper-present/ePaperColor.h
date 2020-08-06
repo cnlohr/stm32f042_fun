@@ -33,5 +33,7 @@ void SetupEPaperForData();
 void SendEPaperData( uint8_t * data, int len );
 void SetupEpaperDone();
 
+void EPD_5IN65F_Show7Block(void);
+
 #endif
 

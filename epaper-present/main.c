@@ -58,19 +58,22 @@ int sentinal;
 
 void CBHIDData( uint8_t paklen, uint8_t * data )
 {
+	//Previous tests have found this unreliable.
+}
+
+volatile uint8_t epaperdoneflag;
+
+void CBHIDInterruptIn( uint8_t paklen, uint8_t * data )
+{
 	switch( data[0] )
 	{
 	case 0: sentinal = data[1]; break;
 	case 1: SetupEPaperForData(); break;
 	case 2: SendEPaperData( data + 2, data[1] ); break;
-	case 3: SetupEpaperDone(); break;
+	case 3: epaperdoneflag = 1; break;
 	}
 }
 
-void CBHIDInterruptIn( uint8_t paklen, uint8_t * data )
-{
-	//?? Broken?
-}
 
 
 uint8_t senddata[64];
@@ -107,14 +110,24 @@ int main()
 	init_usb();
 
 	SetupEPaperDisplay();
+//	EPD_5IN65F_Show7Block();
+
+
+#if 0
 	SetupEPaperForData();
 	int j;
-	for( j = 0; j < 600 * 448 / 2 / 32; j++ )
+    for(int j=0; j<EPD_HEIGHT; j++)
 	{
-		uint8_t buffer[32];
-		SendEPaperData( buffer, 32 );
+	    for(int i=0; i<EPD_WIDTH; i++)
+		{
+			char buffer[1];
+			int color = j;
+			buffer[0] = (color&0x0f) | (color << 4);
+			SendEPaperData( buffer, 1 );
+		}
 	}
 	SetupEpaperDone();
+#endif
 
 //	case 1: SetupEPaperForData(); break;
 //	case 2: SendEPaperData( data + 2, data[1] ); break;
@@ -122,6 +135,11 @@ int main()
 
 	while(1)
 	{
+		if( epaperdoneflag )
+		{
+			SetupEpaperDone();
+			epaperdoneflag = 0;
+		}
 
 		if( usbDataOkToRead )
 		{
@@ -140,6 +158,7 @@ int main()
 		{
 			senddata[0]++;
 			usb_data( senddata, ENDPOINT1_SIZE );
+			usbDataOkToSend = 0;
 		}
 	}
 }

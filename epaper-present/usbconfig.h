@@ -19,6 +19,17 @@
 #define ENDPOINT1_SIZE 64
 #define ENDPOINT2_SIZE 64
 
+#if 0
+#define EP_TYPE_OUT   USB_EP_BULK
+#define EP_TYPE_IN    USB_EP_BULK
+#define EP_TYPE_OUT_DESC 2
+#define EP_TYPE_IN_DESC  2
+#else
+#define EP_TYPE_OUT   USB_EP_INTERRUPT
+#define EP_TYPE_IN    USB_EP_INTERRUPT
+#define EP_TYPE_OUT_DESC 3
+#define EP_TYPE_IN_DESC  3
+#endif
 
 #define LSB(x) ((x)&0xff)
 #define MSB(x) ((x)>>8)
@@ -101,7 +112,7 @@ const static uint8_t config_descriptor[CONFIG_DESCRIPTOR_SIZE] = {
 	7,					// bLength
 	5,					// bDescriptorType
 	IN_ENDPOINT_ADDRESS,					// bEndpointAddress (IN, 1)
-	0x03,				// bmAttributes
+	EP_TYPE_IN_DESC,				// bmAttributes
 	LSB(ENDPOINT1_SIZE), MSB(ENDPOINT1_SIZE),			// wMaxPacketSize
 	1,					// bInterval */
 
@@ -109,7 +120,7 @@ const static uint8_t config_descriptor[CONFIG_DESCRIPTOR_SIZE] = {
 	7,					// bLength
 	5,					// bDescriptorType
 	OUT_ENDPOINT_ADDRESS,					// bEndpointAddress (OUT, 2)
-	0x03,				// bmAttributes (Interrupt)
+	EP_TYPE_OUT_DESC,				// bmAttributes (Interrupt)
 	LSB(ENDPOINT2_SIZE), MSB(ENDPOINT2_SIZE),			// wMaxPacketSize
 	1,					// bInterval 
 };
