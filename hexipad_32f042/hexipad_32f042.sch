@@ -30,7 +30,7 @@ U 1 1 5F19401E
 P 750 2550
 F 0 "J1" H 668 2125 50  0000 C CNN
 F 1 "PGM" H 668 2216 50  0000 C CNN
-F 2 "POGO-5:POGO-5" H 750 2550 50  0001 C CNN
+F 2 "stlink-pgmhdr:POGO-5" H 750 2550 50  0001 C CNN
 F 3 "~" H 750 2550 50  0001 C CNN
 F 4 "DNP" H 750 2550 50  0001 C CNN "DNP"
 	1    750  2550
@@ -268,7 +268,7 @@ U 1 1 5F1AE76A
 P 4300 3950
 F 0 "J2" H 4357 4417 50  0000 C CNN
 F 1 "USB_B_Micro" H 4357 4326 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" H 4450 3900 50  0001 C CNN
+F 2 "chinese_connectors:chinausb-multi" H 4450 3900 50  0001 C CNN
 F 3 "~" H 4450 3900 50  0001 C CNN
 F 4 ".0407" H 4300 3950 50  0001 C CNN "Cost100"
 F 5 "https://lcsc.com/product-detail/USB-Connectors_Jing-Extension-of-the-Electronic-Co-Jing-Extension-of-the-Electronic-Co-micro-5PBoard5-9No-column-plus-welding-feet-High-temperature_C40955.html" H 4300 3950 50  0001 C CNN "LCSC"
@@ -903,8 +903,6 @@ F 3 "" H 6550 950 50  0001 C CNN
 	1    6550 950 
 	0    -1   -1   0   
 $EndComp
-Text Notes 1250 5300 0    472  ~ 0
-DESIGN NOT YET TESTED
 $Comp
 L Connector_Generic:Conn_02x09_Odd_Even J3
 U 1 1 5F30D565
@@ -1282,6 +1280,17 @@ F 1 "ARTWORK" H 7618 4366 50  0000 C CNN
 F 2 "stm32f042_breakout:leaves_front-cristabelle" H 7700 4500 50  0001 C CNN
 F 3 "~" H 7700 4500 50  0001 C CNN
 	1    7700 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J16
+U 1 1 5F1E7A36
+P 8200 4500
+F 0 "J16" H 8118 4275 50  0000 C CNN
+F 1 "ARTWORK" H 8118 4366 50  0000 C CNN
+F 2 "stm32f042_breakout:cb-signature" H 8200 4500 50  0001 C CNN
+F 3 "~" H 8200 4500 50  0001 C CNN
+	1    8200 4500
 	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
