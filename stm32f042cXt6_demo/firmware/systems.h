@@ -65,6 +65,13 @@ void ConfigureGPIO( gpio gpio, int parameters );
 #define GPIOPin(x)   ((1<<((x)&0x0f)))
 #define GPIOLatch(x) GPIOOf(x)->ODR
 
+#define GPIOAF(port,mode) ( GPIOOf(port)->AFR[((port)&0xf)>>3] = ( ( (GPIOOf(port)->AFR[((port)&0xf)>>3]) & (~(15<<(((port)&0x7)*4))) ) |  ((mode)<<(((port)&0x7)*4))) )
+#define GPIOMODER(port,mode) ( GPIOOf(port)->MODER = ( ( GPIOOf(port)->MODER &  (~(3<<(((port)&0xf)*2))) ) | (mode<<(((port)&0xf)*2))) )
+#define GPIOOSPEEDR(port,mode) ( GPIOOf(port)->OSPEEDR = ( ( GPIOOf(port)->OSPEEDR &  (~(3<<(((port)&0xf)*2))) ) | (mode<<(((port)&0xf)*2))) )
+#define GPIOPUPDR(port,mode) ( GPIOOf(port)->PUPDR = ( ( GPIOOf(port)->PUPDR &  (~(3<<(((port)&0xf)*2))) ) | (mode<<(((port)&0xf)*2))) )
+#define GPIOOTYPER(port,mode) ( GPIOOf(port)->OTYPER = ( ( GPIOOf(port)->OTYPER &  (~(1<<(((port)&0xf)))) ) | (mode<<(((port)&0xf)))) )
+
+
 #ifdef STM32F30X
 #define GPIOOn(x)   GPIOOf(x)->BSRR  = (1<<((x)&0x0f));
 #define GPIOOff(x)  GPIOOf(x)->BRR   = (1<<((x)&0x0f));
