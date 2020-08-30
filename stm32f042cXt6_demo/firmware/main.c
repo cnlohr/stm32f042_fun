@@ -127,7 +127,7 @@ int main()
 
 	TriggerDMA();
 
-	InitLTR_553ALS_WA();
+//	InitLTR_553ALS_WA();
 
 	uint8_t counts[NUM_TOUCH];
 

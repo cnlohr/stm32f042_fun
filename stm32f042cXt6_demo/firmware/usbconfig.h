@@ -20,6 +20,18 @@
 #define ENDPOINT2_SIZE 64
 
 
+#if 0
+#define EP_TYPE_OUT   USB_EP_BULK
+#define EP_TYPE_IN    USB_EP_BULK
+#define EP_TYPE_OUT_DESC 2
+#define EP_TYPE_IN_DESC  2
+#else
+#define EP_TYPE_OUT   USB_EP_INTERRUPT
+#define EP_TYPE_IN    USB_EP_INTERRUPT
+#define EP_TYPE_OUT_DESC 3
+#define EP_TYPE_IN_DESC  3
+#endif
+
 #define LSB(x) ((x)&0xff)
 #define MSB(x) ((x)>>8)
 

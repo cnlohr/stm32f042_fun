@@ -271,7 +271,7 @@ F 1 "USB_B_Micro" H 4357 4326 50  0000 C CNN
 F 2 "chinese_connectors:chinausb-multi" H 4450 3900 50  0001 C CNN
 F 3 "~" H 4450 3900 50  0001 C CNN
 F 4 ".0407" H 4300 3950 50  0001 C CNN "Cost100"
-F 5 "https://lcsc.com/product-detail/USB-Connectors_Jing-Extension-of-the-Electronic-Co-Jing-Extension-of-the-Electronic-Co-micro-5PBoard5-9No-column-plus-welding-feet-High-temperature_C40955.html" H 4300 3950 50  0001 C CNN "LCSC"
+F 5 "https://lcsc.com/product-detail/USB-Connectors_Jing-Extension-of-the-Electronic-Co-C40953_C40953.html" H 4300 3950 50  0001 C CNN "LCSC"
 	1    4300 3950
 	1    0    0    -1  
 $EndComp
