@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0101
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0101
 U 1 1 5F193519
 P 3150 2900
 F 0 "#PWR0101" H 3150 2650 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 3150 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:Conn_01x05-Connector_Generic J1
+L hexipad_32f042-rescue:Conn_01x05-Connector_Generic-hexipad_32f042-rescue J1
 U 1 1 5F19401E
 P 750 2550
 F 0 "J1" H 668 2125 50  0000 C CNN
@@ -37,7 +37,7 @@ F 4 "DNP" H 750 2550 50  0001 C CNN "DNP"
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0102
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0102
 U 1 1 5F194665
 P 950 2750
 F 0 "#PWR0102" H 950 2500 50  0001 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 950 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+5V-power #PWR0103
+L hexipad_32f042-rescue:+5V-power-hexipad_32f042-rescue #PWR0103
 U 1 1 5F194C31
 P 950 2650
 F 0 "#PWR0103" H 950 2500 50  0001 C CNN
@@ -71,7 +71,7 @@ SWD
 Text GLabel 3950 2600 2    50   Input ~ 0
 SWC
 $Comp
-L hexipad_32f042-rescue:R_Small-Device R1
+L hexipad_32f042-rescue:R_Small-Device-hexipad_32f042-rescue R1
 U 1 1 5F197F74
 P 1400 900
 F 0 "R1" H 1459 946 50  0000 L CNN
@@ -84,7 +84,7 @@ F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniro
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:R_Small-Device R2
+L hexipad_32f042-rescue:R_Small-Device-hexipad_32f042-rescue R2
 U 1 1 5F19859E
 P 1700 900
 F 0 "R2" H 1759 946 50  0000 L CNN
@@ -101,7 +101,7 @@ BOOT0
 Text GLabel 1700 800  1    50   Input ~ 0
 ~RST~
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0104
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0104
 U 1 1 5F198B2C
 P 1400 1000
 F 0 "#PWR0104" H 1400 750 50  0001 C CNN
@@ -112,7 +112,7 @@ F 3 "" H 1400 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:SW_Push_45deg-Switch SW1
+L hexipad_32f042-rescue:SW_Push_45deg-Switch-hexipad_32f042-rescue SW1
 U 1 1 5F19EAC8
 P 1200 1900
 F 0 "SW1" H 1200 2181 50  0000 C CNN
@@ -127,7 +127,7 @@ $EndComp
 Text GLabel 1100 1800 0    50   Input ~ 0
 BOOT0
 $Comp
-L hexipad_32f042-rescue:SW_Push_45deg-Switch SW2
+L hexipad_32f042-rescue:SW_Push_45deg-Switch-hexipad_32f042-rescue SW2
 U 1 1 5F1A1078
 P 1250 1500
 F 0 "SW2" H 1250 1781 50  0000 C CNN
@@ -140,7 +140,7 @@ F 5 "https://lcsc.com/product-detail/Tactile-Switches_XKB-Connectivity-TS-1187A-
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0105
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0105
 U 1 1 5F1A107E
 P 1350 1600
 F 0 "#PWR0105" H 1350 1350 50  0001 C CNN
@@ -151,7 +151,7 @@ F 3 "" H 1350 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+3.3V-power #PWR0106
+L hexipad_32f042-rescue:+3.3V-power-hexipad_32f042-rescue #PWR0106
 U 1 1 5F1A2344
 P 1300 2000
 F 0 "#PWR0106" H 1300 1850 50  0001 C CNN
@@ -162,7 +162,7 @@ F 3 "" H 1300 2000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+3.3V-power #PWR0107
+L hexipad_32f042-rescue:+3.3V-power-hexipad_32f042-rescue #PWR0107
 U 1 1 5F1A2922
 P 1700 1000
 F 0 "#PWR0107" H 1700 850 50  0001 C CNN
@@ -173,7 +173,7 @@ F 3 "" H 1700 1000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:AP1117-33-Regulator_Linear U1
+L hexipad_32f042-rescue:AP1117-33-Regulator_Linear-hexipad_32f042-rescue U1
 U 1 1 5F1A5195
 P 1600 3250
 F 0 "U1" H 1600 3492 50  0000 C CNN
@@ -186,7 +186,7 @@ F 5 "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_UMW-Youtai-Semic
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0108
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0108
 U 1 1 5F1A5F01
 P 1600 3550
 F 0 "#PWR0108" H 1600 3300 50  0001 C CNN
@@ -197,7 +197,7 @@ F 3 "" H 1600 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+3.3V-power #PWR0109
+L hexipad_32f042-rescue:+3.3V-power-hexipad_32f042-rescue #PWR0109
 U 1 1 5F1A6297
 P 1900 3250
 F 0 "#PWR0109" H 1900 3100 50  0001 C CNN
@@ -208,7 +208,7 @@ F 3 "" H 1900 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+5V-power #PWR0110
+L hexipad_32f042-rescue:+5V-power-hexipad_32f042-rescue #PWR0110
 U 1 1 5F1A6A48
 P 1300 3250
 F 0 "#PWR0110" H 1300 3100 50  0001 C CNN
@@ -219,7 +219,7 @@ F 3 "" H 1300 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:SRV05-4-Power_Protection U2
+L hexipad_32f042-rescue:SRV05-4-Power_Protection-hexipad_32f042-rescue U2
 U 1 1 5F1A84A6
 P 3000 3950
 F 0 "U2" H 2700 4500 50  0000 C CNN
@@ -233,7 +233,7 @@ F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/D5V0P4URL6SO-
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0111
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0111
 U 1 1 5F1AA890
 P 3000 4450
 F 0 "#PWR0111" H 3000 4200 50  0001 C CNN
@@ -244,7 +244,7 @@ F 3 "" H 3000 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+5V-power #PWR0112
+L hexipad_32f042-rescue:+5V-power-hexipad_32f042-rescue #PWR0112
 U 1 1 5F1AAF8F
 P 3000 3450
 F 0 "#PWR0112" H 3000 3300 50  0001 C CNN
@@ -263,12 +263,12 @@ D+
 Text GLabel 2500 3850 0    50   Input ~ 0
 D-
 $Comp
-L hexipad_32f042-rescue:USB_B_Micro-Connector J2
+L hexipad_32f042-rescue:USB_B_Micro-Connector-hexipad_32f042-rescue J2
 U 1 1 5F1AE76A
 P 4300 3950
 F 0 "J2" H 4357 4417 50  0000 C CNN
 F 1 "USB_B_Micro" H 4357 4326 50  0000 C CNN
-F 2 "chinese_connectors:chinausb-multi" H 4450 3900 50  0001 C CNN
+F 2 "chinese-connectors:chinausb-multi" H 4450 3900 50  0001 C CNN
 F 3 "~" H 4450 3900 50  0001 C CNN
 F 4 ".0407" H 4300 3950 50  0001 C CNN "Cost100"
 F 5 "https://lcsc.com/product-detail/USB-Connectors_Jing-Extension-of-the-Electronic-Co-C40953_C40953.html" H 4300 3950 50  0001 C CNN "LCSC"
@@ -280,7 +280,7 @@ D+
 Text GLabel 4600 4050 2    50   Input ~ 0
 D-
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0113
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0113
 U 1 1 5F1B0A60
 P 4200 4350
 F 0 "#PWR0113" H 4200 4100 50  0001 C CNN
@@ -291,7 +291,7 @@ F 3 "" H 4200 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0114
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0114
 U 1 1 5F1B0FA8
 P 4300 4350
 F 0 "#PWR0114" H 4300 4100 50  0001 C CNN
@@ -302,7 +302,7 @@ F 3 "" H 4300 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+5V-power #PWR0115
+L hexipad_32f042-rescue:+5V-power-hexipad_32f042-rescue #PWR0115
 U 1 1 5F1B1F3D
 P 4600 3750
 F 0 "#PWR0115" H 4600 3600 50  0001 C CNN
@@ -317,7 +317,7 @@ D+
 Text GLabel 3500 4050 2    50   Input ~ 0
 D-
 $Comp
-L hexipad_32f042-rescue:C_Small-Device C1
+L hexipad_32f042-rescue:C_Small-Device-hexipad_32f042-rescue C1
 U 1 1 5F1C0420
 P 750 3400
 F 0 "C1" H 700 3500 50  0000 R CNN
@@ -330,7 +330,7 @@ F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+5V-power #PWR0116
+L hexipad_32f042-rescue:+5V-power-hexipad_32f042-rescue #PWR0116
 U 1 1 5F1C117A
 P 750 3300
 F 0 "#PWR0116" H 750 3150 50  0001 C CNN
@@ -341,7 +341,7 @@ F 3 "" H 750 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0117
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0117
 U 1 1 5F1C1644
 P 750 3500
 F 0 "#PWR0117" H 750 3250 50  0001 C CNN
@@ -352,7 +352,7 @@ F 3 "" H 750 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:C_Small-Device C2
+L hexipad_32f042-rescue:C_Small-Device-hexipad_32f042-rescue C2
 U 1 1 5F1C2C60
 P 800 900
 F 0 "C2" H 750 1000 50  0000 R CNN
@@ -365,7 +365,7 @@ F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+3.3V-power #PWR0118
+L hexipad_32f042-rescue:+3.3V-power-hexipad_32f042-rescue #PWR0118
 U 1 1 5F1C387D
 P 800 800
 F 0 "#PWR0118" H 800 650 50  0001 C CNN
@@ -376,7 +376,7 @@ F 3 "" H 800 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0119
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0119
 U 1 1 5F1D4E1C
 P 800 1000
 F 0 "#PWR0119" H 800 750 50  0001 C CNN
@@ -387,7 +387,7 @@ F 3 "" H 800 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:C_Small-Device C4
+L hexipad_32f042-rescue:C_Small-Device-hexipad_32f042-rescue C4
 U 1 1 5F1D6414
 P 1100 900
 F 0 "C4" H 1050 1000 50  0000 R CNN
@@ -400,7 +400,7 @@ F 5 "https://lcsc.com/product-detail/New-Arrivals_PSA-Prosperity-Dielectrics-FN1
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+3.3V-power #PWR0120
+L hexipad_32f042-rescue:+3.3V-power-hexipad_32f042-rescue #PWR0120
 U 1 1 5F1D641A
 P 1100 800
 F 0 "#PWR0120" H 1100 650 50  0001 C CNN
@@ -411,7 +411,7 @@ F 3 "" H 1100 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0121
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0121
 U 1 1 5F1D6420
 P 1100 1000
 F 0 "#PWR0121" H 1100 750 50  0001 C CNN
@@ -422,7 +422,7 @@ F 3 "" H 1100 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:C_Small-Device C3
+L hexipad_32f042-rescue:C_Small-Device-hexipad_32f042-rescue C3
 U 1 1 5F1D69ED
 P 1050 3400
 F 0 "C3" H 1000 3500 50  0000 R CNN
@@ -435,7 +435,7 @@ F 5 "https://lcsc.com/product-detail/New-Arrivals_PSA-Prosperity-Dielectrics-FN1
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+5V-power #PWR0122
+L hexipad_32f042-rescue:+5V-power-hexipad_32f042-rescue #PWR0122
 U 1 1 5F1D7039
 P 1050 3300
 F 0 "#PWR0122" H 1050 3150 50  0001 C CNN
@@ -446,7 +446,7 @@ F 3 "" H 1050 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0123
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0123
 U 1 1 5F1D7525
 P 1050 3500
 F 0 "#PWR0123" H 1050 3250 50  0001 C CNN
@@ -457,7 +457,7 @@ F 3 "" H 1050 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:Micro_SD_Card_Det-Connector J7
+L hexipad_32f042-rescue:Micro_SD_Card_Det-Connector-hexipad_32f042-rescue J7
 U 1 1 5F1EC995
 P 8200 2200
 F 0 "J7" H 8150 3017 50  0000 C CNN
@@ -470,7 +470,7 @@ F 5 "https://lcsc.com/product-detail/Card-Sockets-Connectors_HOAUC-HYC77-TF09-20
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0124
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0124
 U 1 1 5F1EDFF0
 P 9000 2700
 F 0 "#PWR0124" H 9000 2450 50  0001 C CNN
@@ -489,7 +489,7 @@ SPISCK
 Text GLabel 7300 2200 0    50   Input ~ 0
 SPISCK
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0125
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0125
 U 1 1 5F1F4C96
 P 7300 2300
 F 0 "#PWR0125" H 7300 2050 50  0001 C CNN
@@ -514,7 +514,7 @@ SPID2
 Text GLabel 7300 2500 0    50   Input ~ 0
 SPID1
 $Comp
-L hexipad_32f042-rescue:+3.3V-power #PWR0126
+L hexipad_32f042-rescue:+3.3V-power-hexipad_32f042-rescue #PWR0126
 U 1 1 5F1F8BAB
 P 3150 1300
 F 0 "#PWR0126" H 3150 1150 50  0001 C CNN
@@ -525,7 +525,7 @@ F 3 "" H 3150 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+3.3V-power #PWR0127
+L hexipad_32f042-rescue:+3.3V-power-hexipad_32f042-rescue #PWR0127
 U 1 1 5F1F9145
 P 3050 1300
 F 0 "#PWR0127" H 3050 1150 50  0001 C CNN
@@ -536,7 +536,7 @@ F 3 "" H 3050 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:C_Small-Device C7
+L hexipad_32f042-rescue:C_Small-Device-hexipad_32f042-rescue C7
 U 1 1 5F1FAA70
 P 8100 3300
 F 0 "C7" H 8050 3400 50  0000 R CNN
@@ -549,7 +549,7 @@ F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:C_Small-Device C8
+L hexipad_32f042-rescue:C_Small-Device-hexipad_32f042-rescue C8
 U 1 1 5F1FB9E4
 P 8350 3300
 F 0 "C8" H 8300 3400 50  0000 R CNN
@@ -565,7 +565,7 @@ Wire Wire Line
 	8100 3200 8350 3200
 Connection ~ 8100 3200
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0128
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0128
 U 1 1 5F1FD259
 P 8100 3400
 F 0 "#PWR0128" H 8100 3150 50  0001 C CNN
@@ -576,7 +576,7 @@ F 3 "" H 8100 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0129
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0129
 U 1 1 5F1FD858
 P 8350 3400
 F 0 "#PWR0129" H 8350 3150 50  0001 C CNN
@@ -587,7 +587,7 @@ F 3 "" H 8350 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+5V-power #PWR0130
+L hexipad_32f042-rescue:+5V-power-hexipad_32f042-rescue #PWR0130
 U 1 1 5F1FDDEF
 P 7100 3450
 F 0 "#PWR0130" H 7100 3300 50  0001 C CNN
@@ -598,7 +598,7 @@ F 3 "" H 7100 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0131
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0131
 U 1 1 5F1FE5C7
 P 7050 750
 F 0 "#PWR0131" H 7050 500 50  0001 C CNN
@@ -620,7 +620,7 @@ Connection ~ 8000 3200
 Wire Wire Line
 	8000 3200 8100 3200
 $Comp
-L hexipad_32f042-rescue:STM32F042G4Ux-MCU_ST_STM32F0 U3
+L hexipad_32f042-rescue:STM32F042G4Ux-MCU_ST_STM32F0-hexipad_32f042-rescue U3
 U 1 1 5F20D136
 P 3350 2100
 F 0 "U3" H 3350 2250 50  0000 C CNN
@@ -633,7 +633,7 @@ F 5 "https://lcsc.com/product-detail/ST-Microelectronics_STMicroelectronics_STM3
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+3.3V-power #PWR0132
+L hexipad_32f042-rescue:+3.3V-power-hexipad_32f042-rescue #PWR0132
 U 1 1 5F228BA9
 P 3250 1300
 F 0 "#PWR0132" H 3250 1150 50  0001 C CNN
@@ -651,7 +651,7 @@ Connection ~ 1850 1700
 Wire Wire Line
 	1700 1700 1850 1700
 $Comp
-L hexipad_32f042-rescue:C_Small-Device C6
+L hexipad_32f042-rescue:C_Small-Device-hexipad_32f042-rescue C6
 U 1 1 5F191C53
 P 2200 1800
 F 0 "C6" H 2108 1754 50  0000 R CNN
@@ -664,7 +664,7 @@ F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0133
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0133
 U 1 1 5F191C4B
 P 2200 1900
 F 0 "#PWR0133" H 2200 1650 50  0001 C CNN
@@ -675,7 +675,7 @@ F 3 "" H 2200 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:C_Small-Device C5
+L hexipad_32f042-rescue:C_Small-Device-hexipad_32f042-rescue C5
 U 1 1 5F18F792
 P 1700 1800
 F 0 "C5" H 1650 1900 50  0000 R CNN
@@ -688,7 +688,7 @@ F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0134
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0134
 U 1 1 5F18F1CA
 P 1700 1900
 F 0 "#PWR0134" H 1700 1650 50  0001 C CNN
@@ -699,7 +699,7 @@ F 3 "" H 1700 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0135
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0135
 U 1 1 5F18EDB0
 P 1950 1700
 F 0 "#PWR0135" H 1950 1450 50  0001 C CNN
@@ -710,7 +710,7 @@ F 3 "" H 1950 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0136
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0136
 U 1 1 5F18EB3F
 P 1950 1900
 F 0 "#PWR0136" H 1950 1650 50  0001 C CNN
@@ -729,7 +729,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 1800 1850 1700
 $Comp
-L hexipad_32f042-rescue:Crystal_GND24_Small-Device Y1
+L hexipad_32f042-rescue:Crystal_GND24_Small-Device-hexipad_32f042-rescue Y1
 U 1 1 5F18BF8A
 P 1950 1800
 F 0 "Y1" H 2050 1900 50  0000 L CNN
@@ -742,7 +742,7 @@ F 5 "https://lcsc.com/product-detail/SMD-Crystal-Resonators_TAE-Zhejiang-Abel-El
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0137
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0137
 U 1 1 5F2BC425
 P 4900 2000
 F 0 "#PWR0137" H 4900 1750 50  0001 C CNN
@@ -753,7 +753,7 @@ F 3 "" H 4900 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0138
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0138
 U 1 1 5F2BCC89
 P 5400 2000
 F 0 "#PWR0138" H 5400 1750 50  0001 C CNN
@@ -800,7 +800,7 @@ PB6
 Text GLabel 5400 1900 2    50   Input ~ 0
 PB7
 $Comp
-L hexipad_32f042-rescue:+5V-power #PWR0139
+L hexipad_32f042-rescue:+5V-power-hexipad_32f042-rescue #PWR0139
 U 1 1 5F2E0B0B
 P 6550 1150
 F 0 "#PWR0139" H 6550 1000 50  0001 C CNN
@@ -811,7 +811,7 @@ F 3 "" H 6550 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+5V-power #PWR0140
+L hexipad_32f042-rescue:+5V-power-hexipad_32f042-rescue #PWR0140
 U 1 1 5F2E1CB4
 P 7050 1150
 F 0 "#PWR0140" H 7050 1000 50  0001 C CNN
@@ -860,7 +860,7 @@ PA0
 Text GLabel 4900 2600 0    50   Input ~ 0
 PA1
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0141
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0141
 U 1 1 5F2F12C9
 P 5400 3300
 F 0 "#PWR0141" H 5400 3050 50  0001 C CNN
@@ -871,7 +871,7 @@ F 3 "" H 5400 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0142
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0142
 U 1 1 5F2F19A3
 P 4900 3300
 F 0 "#PWR0142" H 4900 3050 50  0001 C CNN
@@ -882,7 +882,7 @@ F 3 "" H 4900 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+3.3V-power #PWR0143
+L hexipad_32f042-rescue:+3.3V-power-hexipad_32f042-rescue #PWR0143
 U 1 1 5F2F1F47
 P 7050 950
 F 0 "#PWR0143" H 7050 800 50  0001 C CNN
@@ -893,7 +893,7 @@ F 3 "" H 7050 950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:+3.3V-power #PWR0144
+L hexipad_32f042-rescue:+3.3V-power-hexipad_32f042-rescue #PWR0144
 U 1 1 5F2F270C
 P 6550 950
 F 0 "#PWR0144" H 6550 800 50  0001 C CNN
@@ -904,7 +904,7 @@ F 3 "" H 6550 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:Conn_02x09_Odd_Even-Connector_Generic J3
+L hexipad_32f042-rescue:Conn_02x09_Odd_Even-Connector_Generic-hexipad_32f042-rescue J3
 U 1 1 5F30D565
 P 5100 1600
 F 0 "J3" H 5150 2217 50  0000 C CNN
@@ -917,7 +917,7 @@ F 5 "https://lcsc.com/product-detail/Pin-Header-Female-Header_BOOMELE-Boom-Preci
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:Conn_02x09_Odd_Even-Connector_Generic J4
+L hexipad_32f042-rescue:Conn_02x09_Odd_Even-Connector_Generic-hexipad_32f042-rescue J4
 U 1 1 5F30EE76
 P 5100 2900
 F 0 "J4" H 5150 3517 50  0000 C CNN
@@ -936,7 +936,7 @@ PA15
 Text GLabel 5400 1200 2    50   Input ~ 0
 PA15
 $Comp
-L hexipad_32f042-rescue:Conn_02x05_Odd_Even-Connector_Generic J5
+L hexipad_32f042-rescue:Conn_02x05_Odd_Even-Connector_Generic-hexipad_32f042-rescue J5
 U 1 1 5F32B2BF
 P 6750 950
 F 0 "J5" H 6800 1367 50  0000 C CNN
@@ -965,7 +965,7 @@ Wire Wire Line
 	6200 1350 6850 1350
 Connection ~ 6850 1350
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0145
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0145
 U 1 1 5F353B2C
 P 7050 850
 F 0 "#PWR0145" H 7050 600 50  0001 C CNN
@@ -976,7 +976,7 @@ F 3 "" H 7050 850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0146
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0146
 U 1 1 5F353FED
 P 6550 850
 F 0 "#PWR0146" H 6550 600 50  0001 C CNN
@@ -987,7 +987,7 @@ F 3 "" H 6550 850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0147
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0147
 U 1 1 5F354662
 P 6550 750
 F 0 "#PWR0147" H 6550 500 50  0001 C CNN
@@ -998,7 +998,7 @@ F 3 "" H 6550 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:Conn_01x05-Connector_Generic J6
+L hexipad_32f042-rescue:Conn_01x05-Connector_Generic-hexipad_32f042-rescue J6
 U 1 1 5F35679F
 P 7300 3650
 F 0 "J6" H 7380 3692 50  0000 L CNN
@@ -1011,7 +1011,7 @@ F 5 "https://lcsc.com/product-detail/Linear-Voltage-Regulators_NATLINEAR-LN1154B
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0148
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0148
 U 1 1 5F357462
 P 7100 3550
 F 0 "#PWR0148" H 7100 3300 50  0001 C CNN
@@ -1034,7 +1034,7 @@ Text GLabel 1150 1400 0    50   Input ~ 0
 Text GLabel 1100 4050 0    50   Input ~ 0
 BOOT0
 $Comp
-L hexipad_32f042-rescue:R_Small-Device R3
+L hexipad_32f042-rescue:R_Small-Device-hexipad_32f042-rescue R3
 U 1 1 5F39DD6A
 P 1200 4050
 F 0 "R3" V 1004 4050 50  0000 C CNN
@@ -1047,7 +1047,7 @@ F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniro
 	0    1    1    0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0149
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0149
 U 1 1 5F3A4958
 P 1600 4050
 F 0 "#PWR0149" H 1600 3800 50  0001 C CNN
@@ -1058,7 +1058,7 @@ F 3 "" H 1600 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hexipad_32f042-rescue:LED-Device D1
+L hexipad_32f042-rescue:LED-Device-hexipad_32f042-rescue D1
 U 1 1 5F3A5812
 P 1450 4050
 F 0 "D1" H 1443 3795 50  0000 C CNN
@@ -1081,7 +1081,7 @@ CARD_DET
 Text Notes 2200 900  0    50   ~ 0
 Ideally, use 20pF load crystal,\nI think? Though realy, for 99%\nof projects with this chip, no\ncrystal is needed.
 $Comp
-L hexipad_32f042-rescue:C_Small-Device C9
+L hexipad_32f042-rescue:C_Small-Device-hexipad_32f042-rescue C9
 U 1 1 5F3F74ED
 P 3900 850
 F 0 "C9" H 3850 950 50  0000 R CNN
@@ -1094,7 +1094,7 @@ F 5 "https://lcsc.com/product-detail/New-Arrivals_PSA-Prosperity-Dielectrics-FN1
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0150
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0150
 U 1 1 5F3F841B
 P 3900 950
 F 0 "#PWR0150" H 3900 700 50  0001 C CNN
@@ -1109,7 +1109,7 @@ Text GLabel 3900 750  1    50   Input ~ 0
 Text Notes 4100 900  0    50   ~ 0
 This cap is purely\noptional.
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0151
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0151
 U 1 1 5F41C657
 P 5950 3900
 F 0 "#PWR0151" H 5950 3650 50  0001 C CNN
@@ -1120,7 +1120,7 @@ F 3 "" H 5950 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0152
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0152
 U 1 1 5F41EC27
 P 5950 4200
 F 0 "#PWR0152" H 5950 3950 50  0001 C CNN
@@ -1131,7 +1131,7 @@ F 3 "" H 5950 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0153
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0153
 U 1 1 5F41F3F0
 P 5950 4550
 F 0 "#PWR0153" H 5950 4300 50  0001 C CNN
@@ -1142,7 +1142,7 @@ F 3 "" H 5950 4550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0154
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0154
 U 1 1 5F41FD57
 P 6550 4400
 F 0 "#PWR0154" H 6550 4150 50  0001 C CNN
@@ -1153,7 +1153,7 @@ F 3 "" H 6550 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0155
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0155
 U 1 1 5F4204AE
 P 5450 4400
 F 0 "#PWR0155" H 5450 4150 50  0001 C CNN
@@ -1164,7 +1164,7 @@ F 3 "" H 5450 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:GND-power #PWR0156
+L hexipad_32f042-rescue:GND-power-hexipad_32f042-rescue #PWR0156
 U 1 1 5F420B9D
 P 5450 4000
 F 0 "#PWR0156" H 5450 3750 50  0001 C CNN
@@ -1175,7 +1175,7 @@ F 3 "" H 5450 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:Conn_01x01-Connector_Generic J13
+L hexipad_32f042-rescue:Conn_01x01-Connector_Generic-hexipad_32f042-rescue J13
 U 1 1 5F41FD51
 P 6350 4400
 F 0 "J13" H 6268 4175 50  0000 C CNN
@@ -1186,7 +1186,7 @@ F 3 "~" H 6350 4400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:Conn_01x01-Connector_Generic J10
+L hexipad_32f042-rescue:Conn_01x01-Connector_Generic-hexipad_32f042-rescue J10
 U 1 1 5F41A8FE
 P 5750 3900
 F 0 "J10" H 5668 3675 50  0000 C CNN
@@ -1197,7 +1197,7 @@ F 3 "~" H 5750 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:Conn_01x01-Connector_Generic J11
+L hexipad_32f042-rescue:Conn_01x01-Connector_Generic-hexipad_32f042-rescue J11
 U 1 1 5F41EC21
 P 5750 4200
 F 0 "J11" H 5668 3975 50  0000 C CNN
@@ -1208,7 +1208,7 @@ F 3 "~" H 5750 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:Conn_01x01-Connector_Generic J12
+L hexipad_32f042-rescue:Conn_01x01-Connector_Generic-hexipad_32f042-rescue J12
 U 1 1 5F41F3EA
 P 5750 4550
 F 0 "J12" H 5668 4325 50  0000 C CNN
@@ -1219,7 +1219,7 @@ F 3 "~" H 5750 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:Conn_01x01-Connector_Generic J9
+L hexipad_32f042-rescue:Conn_01x01-Connector_Generic-hexipad_32f042-rescue J9
 U 1 1 5F4204A8
 P 5250 4400
 F 0 "J9" H 5168 4175 50  0000 C CNN
@@ -1230,7 +1230,7 @@ F 3 "~" H 5250 4400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:Conn_01x01-Connector_Generic J8
+L hexipad_32f042-rescue:Conn_01x01-Connector_Generic-hexipad_32f042-rescue J8
 U 1 1 5F420B97
 P 5250 4000
 F 0 "J8" H 5168 3775 50  0000 C CNN
@@ -1241,7 +1241,7 @@ F 3 "~" H 5250 4000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:Conn_01x01-Connector_Generic J14
+L hexipad_32f042-rescue:Conn_01x01-Connector_Generic-hexipad_32f042-rescue J14
 U 1 1 5F1B7109
 P 7250 4500
 F 0 "J14" H 7168 4275 50  0000 C CNN
@@ -1252,7 +1252,7 @@ F 3 "~" H 7250 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:SolderJumper_2_Bridged-Jumper JP1
+L hexipad_32f042-rescue:SolderJumper_2_Bridged-Jumper-hexipad_32f042-rescue JP1
 U 1 1 5F1D47AC
 P 2150 1400
 F 0 "JP1" H 2150 1605 50  0000 C CNN
@@ -1272,7 +1272,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 1700 2650 1700
 $Comp
-L hexipad_32f042-rescue:Conn_01x01-Connector_Generic J15
+L hexipad_32f042-rescue:Conn_01x01-Connector_Generic-hexipad_32f042-rescue J15
 U 1 1 5F1B9EC9
 P 7700 4500
 F 0 "J15" H 7618 4275 50  0000 C CNN
@@ -1283,7 +1283,7 @@ F 3 "~" H 7700 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hexipad_32f042-rescue:Conn_01x01-Connector_Generic J16
+L hexipad_32f042-rescue:Conn_01x01-Connector_Generic-hexipad_32f042-rescue J16
 U 1 1 5F1E7A36
 P 8200 4500
 F 0 "J16" H 8118 4275 50  0000 C CNN
