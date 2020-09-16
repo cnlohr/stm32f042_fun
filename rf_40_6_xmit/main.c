@@ -16,6 +16,8 @@ int targf;
 
 #define SYSTICK_TICKS 100
 
+volatile uint8_t flip;
+volatile int freq = 0;
 void SysTick_Handler(void)
 {
 	r++;
@@ -27,7 +29,10 @@ void SysTick_Handler(void)
 
 	//This means the uC is operating at around 81.3 MHz??
 	//TF = frequency/100/32 = 12.6 KHz?
-	int tf = (r>>5)&1;
+
+
+	int rf = r * freq;
+	int tf = (rf>>16)&1;
 
 	//Around 40.69 MHz.
 	int rm = r & 3;
@@ -44,6 +49,10 @@ void SysTick_Handler(void)
 	}
 	RCC->CR = (RCC->CR & ~(RCC_CR_HSITRIM | RCC_CR_HSICAL)) | (ht<<3);
 
+	if( (r&0x1ff) == 511 )
+	{
+		flip = 1;
+	}
 #if 0
 	fl++;
 	if( fl == 25 )
@@ -204,7 +213,13 @@ int main()
 
 	while(1)
 	{
-
+		if( flip )
+		{
+			freq++;
+			//freq = 100;
+			if( freq == 100 ) freq = 0;
+			flip = 0;
+		}
 #if 0
 		if( usbDataOkToRead )
 		{

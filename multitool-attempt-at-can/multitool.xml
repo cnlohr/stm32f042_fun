@@ -1,0 +1,2042 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/cnlohr/git/stm32f042_fun/multitool/multitool.sch</source>
+    <date>Tue 02 Jun 2020 02:49:15 PM PDT</date>
+    <tool>Eeschema 5.1.6-c6e7f7d~86~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>multitool.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>USB</value>
+      <footprint>kicad:USBMicroB-U253-051T-4BH89-F1B</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">.037085</field>
+        <field name="LCSC">https://lcsc.com/product-detail/USB-Connectors_XKB-Enterprise-U253-051T-4BH89-F1B_C319172.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="USB_B_Micro-Connector-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E150F26</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MT2492</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <fields>
+        <field name="Cost100">.053488</field>
+        <field name="LCSC">https://lcsc.com/product-detail/DC-DC-Converters_MT2492_C89358.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="MT2492-MT2492-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E02B8D7</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_2816_7142Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.028838</field>
+        <field name="LCSC">https://lcsc.com/product-detail/New-Arrivals_YJYCOIN-CD32YP0302-100M_C492261.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="L-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E08A6A5</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.003</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B223K500_C123507.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E08F68D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0965D7</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>27k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF2702T5E_C22967.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0A6998</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>BOOT0</value>
+      <footprint>kicad:TACTILE10B</footprint>
+      <fields>
+        <field name="Cost100">0.01388</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Tactile-Switches_SHOU-HAN-TS665TP_C412375.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="TACTILE-tactile-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E120FD9</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>WSOUT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.17640</field>
+        <field name="LCSC">https://www.digikey.com/product-detail/en/harwin-inc/M20-8770342/952-1951-ND/3727918</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="Conn_01x03-Connector_Generic-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E249701</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>SELF_PGM</value>
+      <footprint>kicad:RIBBON6SMT_POGO_OR_IDC</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.024623</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Pin-Header-Female-Header_Ckmtw-Shenzhen-Cankemeng-C124390_C124390.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="Conn_02x03_Odd_Even-Connector_Generic-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0E340D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECD2BFA</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_2816_7142Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.028838</field>
+        <field name="LCSC">https://lcsc.com/product-detail/New-Arrivals_YJYCOIN-CD32YP0302-100M_C492261.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="L-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE2CCC1</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_2816_7142Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.028838</field>
+        <field name="LCSC">https://lcsc.com/product-detail/New-Arrivals_YJYCOIN-CD32YP0302-100M_C492261.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="L-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE2F8BD</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.011787</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SANYEAR-C0805X7R225K250NT_C466790.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE36147</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_2816_7142Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.028838</field>
+        <field name="LCSC">https://lcsc.com/product-detail/New-Arrivals_YJYCOIN-CD32YP0302-100M_C492261.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="L-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED2506B</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_2816_7142Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.028838</field>
+        <field name="LCSC">https://lcsc.com/product-detail/New-Arrivals_YJYCOIN-CD32YP0302-100M_C492261.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="L-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED25073</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.011787</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SANYEAR-C0805X7R225K250NT_C466790.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED2507B</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>10u25v</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.017645</field>
+        <field name="LCSC">https://lcsc.com/product-detail/New-Arrivals_Taiyo-Yuden-TMK212BBJ106KG-T_C386085.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED250AF</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>XC6206P360MR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.torexsemi.com/file/xc6206/XC6206.pdf</datasheet>
+      <fields>
+        <field name="Cost100">0.017802</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_UMW-Youtai-Semiconductor-Co-Ltd-XC6206P362MR_C351446.html</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="XC6206PxxxMR" description="Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED4F79A</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.011787</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SANYEAR-C0805X7R225K250NT_C466790.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDAAA37</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_2816_7142Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.028838</field>
+        <field name="LCSC">https://lcsc.com/product-detail/New-Arrivals_YJYCOIN-CD32YP0302-100M_C492261.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="L-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDC349F</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>NUP4202</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NUP4202W1-D.PDF</datasheet>
+      <fields>
+        <field name="Cost100">0.033087</field>
+        <field name="LCSC">https://lcsc.com/product-detail/TVS_Silergy_CS0816_CS0816_C178230.html</field>
+      </fields>
+      <libsource lib="Power_Protection" part="NUP4202" description="Transient voltage suppressor designed to protect high speed data lines from ESD, EFT, and lightning"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE53AE7</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>12V Zener</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.009079</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Zener-Diodes_Shandong-Jingdao-Microelectronics-BZT52C12_C353560.html</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF63314</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>VDDS</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFAEA52</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>SAO</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.55880</field>
+        <field name="LCSC">https://www.digikey.com/product-detail/en/harwin-inc/M20-7870346/952-3251-ND/3919711</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDDD8B8</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>5.1V</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.01</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Zener-Diodes_Shandong-Jingdao-Microelectronics-BZT52C5V1_C353516.html</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE28EAC</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF14D0A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">.0105</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0805-blue_C205441.html</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0B7AEB</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>GRN</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">.0103</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0805-green_C205442.html</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0F8718</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>WS2813</value>
+      <footprint>LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</footprint>
+      <datasheet>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</datasheet>
+      <fields>
+        <field name="Cost100">.0942</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_5050-RGBIntegrated-Light-6Pin_C114592.html</field>
+      </fields>
+      <libsource lib="LED" part="WS2813" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2D7B7B</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>WS2813</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">.23</field>
+        <field name="LCSC">https://www.digikey.com/product-detail/en/harwin-inc/M20-8770442/952-2353-ND/3906342</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3650BA</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>12V Zener</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.009079</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Zener-Diodes_Shandong-Jingdao-Microelectronics-BZT52C12_C353560.html</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3E6807</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>.051 Ohm 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">.01064</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-1206W4F510MT5E_C473044.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41B416</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>INA181A3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina181.pdf</datasheet>
+      <fields>
+        <field name="Cost100">0.369091</field>
+        <field name="LCSC">https://lcsc.com/product-detail/PMIC-Current-Power-Monitors-Regulators_Texas-Instruments_INA181A3IDBVT_Texas-Instruments-Texas-Instruments-INA181A3IDBVT_C129285.html</field>
+      </fields>
+      <libsource lib="Amplifier_Current" part="INA181" description="Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SOT-23-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3D22E1</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>ESP-01</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.94250</field>
+        <field name="LCSC">https://www.digikey.com/product-detail/en/sullins-connector-solutions/NPPC042KFMS-RC/S5713-ND/776172</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5C2B8E</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>VDDS</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F66E80A</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>MNT</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F68E29C</tstamp>
+    </comp>
+    <comp ref="J18">
+      <value>MNT</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6957DE</tstamp>
+    </comp>
+    <comp ref="J19">
+      <value>MNT</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6977BF</tstamp>
+    </comp>
+    <comp ref="J20">
+      <value>MNT</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F699734</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>STM32F042</value>
+      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">1.042045</field>
+        <field name="LCSC">https://lcsc.com/product-detail/ST-Microelectronics_STMicroelectronics_STM32F042K6T6_STM32F042K6T6_C69216.html</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32F0" part="STM32F042K4Tx" description="ARM Cortex-M0 MCU, 16KB flash, 6KB RAM, 48MHz, 2-3.6V, 26 GPIO, LQFP-32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED8D8D1</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFF7A25</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFF8120</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFF8C31</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.003</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B223K500_C123507.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F00D089</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.003</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B223K500_C123507.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F00DB59</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F05E6CD</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.003</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B223K500_C123507.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F11BC38</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.003</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B223K500_C123507.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F13BFF8</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>LOADSW</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn7402</datasheet>
+      <fields>
+        <field name="Cost100">0.041243</field>
+        <field name="LCSC">https://lcsc.com/product-detail/MOSFET_Wuxi-NCE-Power-Semiconductor-NCE2003_C216792.html</field>
+      </fields>
+      <libsource lib="NCE2003" part="NCE2003" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED729E8</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002409</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0805W8F6800T5E_C17798.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE41CB7</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>3402</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.025</field>
+        <field name="LCSC">https://lcsc.com/product-detail/MOSFET_Guangdong-Hottech-AO3402_C181092.html</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEB0815</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>3402</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.025</field>
+        <field name="LCSC">https://lcsc.com/product-detail/MOSFET_Guangdong-Hottech-AO3402_C181092.html</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEB1177</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>LOADSW</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn7402</datasheet>
+      <fields>
+        <field name="Cost100">0.041243</field>
+        <field name="LCSC">https://lcsc.com/product-detail/MOSFET_Wuxi-NCE-Power-Semiconductor-NCE2003_C216792.html</field>
+      </fields>
+      <libsource lib="NCE2003" part="NCE2003" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEF1DAA</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>3402</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.025</field>
+        <field name="LCSC">https://lcsc.com/product-detail/MOSFET_Guangdong-Hottech-AO3402_C181092.html</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEF8B20</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002409</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0805W8F6800T5E_C17798.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF090C9</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>VPPS</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="NOBOM">1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF9459A</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10u25v</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.017645</field>
+        <field name="LCSC">https://lcsc.com/product-detail/New-Arrivals_Taiyo-Yuden-TMK212BBJ106KG-T_C386085.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF5005A</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF903A5</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF92C66</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF93251</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF3300T5E_C23138.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF98C84</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF9AAEF</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF3300T5E_C23138.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF9B997</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.003</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603B223K500_C123507.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFC8CB6</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED9A86E</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>SP485</value>
+      <footprint>Package_SO:SOP-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.098318</field>
+        <field name="LCSC">https://lcsc.com/product-detail/RS-485-RS-422-ICs_BL-Shanghai-Belling-BL3085_C128803.html</field>
+      </fields>
+      <libsource lib="Interface_UART" part="ST485EBDR" description="Half duplex RS-485/RS-422, 5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 256 transceiver on the bus - 40 to 85 °C, SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF14C95</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0501F9</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0AC071</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F29D809</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2A9C2D</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10u25v</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.017645</field>
+        <field name="LCSC">https://lcsc.com/product-detail/New-Arrivals_Taiyo-Yuden-TMK212BBJ106KG-T_C386085.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3688D7</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10u25v</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.017645</field>
+        <field name="LCSC">https://lcsc.com/product-detail/New-Arrivals_Taiyo-Yuden-TMK212BBJ106KG-T_C386085.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F36AE1F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u25v</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.017645</field>
+        <field name="LCSC">https://lcsc.com/product-detail/New-Arrivals_Taiyo-Yuden-TMK212BBJ106KG-T_C386085.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F36BF6C</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>PADAUK</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.074603</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Pin-Header-Female-Header_BOOMELE-Boom-Precision-Elec-C261072_C261072.html</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3B41D8</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE6CB7A</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_PNP_BEC</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">.005858</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Transistors-NPN-PNP_Nexperia-PMBT3906-215_C8670.html</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_BEC" description="PNP transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE6E613</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>3402</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.025</field>
+        <field name="LCSC">https://lcsc.com/product-detail/MOSFET_Guangdong-Hottech-AO3402_C181092.html</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE1C280</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>27k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF2702T5E_C22967.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F48A124</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>74LVC02APW</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn7402</datasheet>
+      <fields>
+        <field name="Cost100">0.107864</field>
+        <field name="LCSC">https://lcsc.com/product-detail/74-Series_Nexperia-74LVC02APW-118_C131092.html</field>
+      </fields>
+      <libsource lib="74xx" part="7402" description="quad 2-input NOR gate"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5A085E</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>UNIVERSAL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.033793</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Pin-Header-Female-Header_BOOMELE-Boom-Precision-Elec-C84004_C84004.html</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE24D4C</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>5.1V</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.01</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Zener-Diodes_Shandong-Jingdao-Microelectronics-BZT52C5V1_C353516.html</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF1644C</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>BLU</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">.0105</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0805-blue_C205441.html</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED93ED2</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.002</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED93EDA</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SUBCFG</value>
+      <footprint>kicad:TACTILE10B</footprint>
+      <fields>
+        <field name="Cost100">0.01388</field>
+        <field name="LCSC">https://lcsc.com/product-detail/Tactile-Switches_SHOU-HAN-TS665TP_C412375.html</field>
+      </fields>
+      <libsource lib="multitool-rescue" part="TACTILE-tactile-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDF62A6</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>AVR</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Cost100">0.34500</field>
+        <field name="LCSC">https://www.digikey.com/product-detail/en/cnc-tech/3020-06-0300-00/1175-1864-ND/3883217</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F03192C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74LS02">
+      <aliases>
+        <alias>74HC02</alias>
+        <alias>74HCT02</alias>
+        <alias>7402</alias>
+        <alias>74LS28</alias>
+      </aliases>
+      <description>quad 2-input NOR gate</description>
+      <docs>http://www.ti.com/lit/gpn/sn74ls02</docs>
+      <footprints>
+        <fp>SO14*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="input"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="output"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Current" part="INA181">
+      <description>Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SOT-23-6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ina181.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA181</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="REF" type="input"/>
+        <pin num="6" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Odd_Even">
+      <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x07_Odd_Even">
+      <description>Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PNP_BEC">
+      <description>PNP transistor, base/emitter/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_UART" part="ST485EBDR">
+      <description>Half duplex RS-485/RS-422, 5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 256 transceiver on the bus - 40 to 85 °C, SOIC-8</description>
+      <docs>http://www.st.com/resource/en/datasheet/st485eb.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ST485EBDR</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RO" type="output"/>
+        <pin num="2" name="~RE" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="DI" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="A" type="BiDi"/>
+        <pin num="7" name="B" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2813">
+      <description>RGB LED with integrated controller</description>
+      <docs>http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P1.6mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2813</field>
+        <field name="Footprint">LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="DOUT" type="output"/>
+        <pin num="4" name="DIN" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="BIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F0" part="STM32F042K4Tx">
+      <aliases>
+        <alias>STM32F042K6Tx</alias>
+      </aliases>
+      <description>ARM Cortex-M0 MCU, 16KB flash, 6KB RAM, 48MHz, 2-3.6V, 26 GPIO, LQFP-32</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf</docs>
+      <footprints>
+        <fp>LQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F042K4Tx</field>
+        <field name="Footprint">Package_QFP:LQFP-32_7x7mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PF0" type="input"/>
+        <pin num="3" name="PF1" type="input"/>
+        <pin num="4" name="NRST" type="input"/>
+        <pin num="5" name="VDDA" type="power_in"/>
+        <pin num="6" name="PA0" type="BiDi"/>
+        <pin num="7" name="PA1" type="BiDi"/>
+        <pin num="8" name="PA2" type="BiDi"/>
+        <pin num="9" name="PA3" type="BiDi"/>
+        <pin num="10" name="PA4" type="BiDi"/>
+        <pin num="11" name="PA5" type="BiDi"/>
+        <pin num="12" name="PA6" type="BiDi"/>
+        <pin num="13" name="PA7" type="BiDi"/>
+        <pin num="14" name="PB0" type="BiDi"/>
+        <pin num="15" name="PB1" type="BiDi"/>
+        <pin num="16" name="VSS" type="power_in"/>
+        <pin num="17" name="VDDIO2" type="power_in"/>
+        <pin num="18" name="PA8" type="BiDi"/>
+        <pin num="19" name="PA9" type="BiDi"/>
+        <pin num="20" name="PA10" type="BiDi"/>
+        <pin num="21" name="PA11" type="BiDi"/>
+        <pin num="22" name="PA12" type="BiDi"/>
+        <pin num="23" name="PA13" type="BiDi"/>
+        <pin num="24" name="PA14" type="BiDi"/>
+        <pin num="25" name="PA15" type="BiDi"/>
+        <pin num="26" name="PB3" type="BiDi"/>
+        <pin num="27" name="PB4" type="BiDi"/>
+        <pin num="28" name="PB5" type="BiDi"/>
+        <pin num="29" name="PB6" type="BiDi"/>
+        <pin num="30" name="PB7" type="BiDi"/>
+        <pin num="31" name="PB8" type="BiDi"/>
+        <pin num="32" name="VSSA" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="NCE2003" part="NCE2003">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCE2003</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="input"/>
+        <pin num="2" name="S2" type="input"/>
+        <pin num="3" name="G2" type="input"/>
+        <pin num="4" name="D2" type="input"/>
+        <pin num="5" name="S1" type="input"/>
+        <pin num="6" name="D1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="NUP4202">
+      <description>Transient voltage suppressor designed to protect high speed data lines from ESD, EFT, and lightning</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/NUP4202W1-D.PDF</docs>
+      <footprints>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NUP4202</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="APE8865N-12-HF-3">
+      <aliases>
+        <alias>APE8865N-15-HF-3</alias>
+        <alias>APE8865N-16-HF-3</alias>
+        <alias>APE8865N-17-HF-3</alias>
+        <alias>APE8865N-18-HF-3</alias>
+        <alias>APE8865N-19-HF-3</alias>
+        <alias>APE8865N-20-HF-3</alias>
+        <alias>APE8865N-21-HF-3</alias>
+        <alias>APE8865N-22-HF-3</alias>
+        <alias>APE8865N-23-HF-3</alias>
+        <alias>APE8865N-24-HF-3</alias>
+        <alias>APE8865N-25-HF-3</alias>
+        <alias>APE8865N-26-HF-3</alias>
+        <alias>APE8865N-27-HF-3</alias>
+        <alias>APE8865N-28-HF-3</alias>
+        <alias>APE8865N-29-HF-3</alias>
+        <alias>APE8865N-30-HF-3</alias>
+        <alias>APE8865N-31-HF-3</alias>
+        <alias>APE8865N-32-HF-3</alias>
+        <alias>APE8865N-33-HF-3</alias>
+        <alias>AP2127N-1.0</alias>
+        <alias>AP2127N-1.2</alias>
+        <alias>AP2127N-1.5</alias>
+        <alias>AP2127N-1.8</alias>
+        <alias>AP2127N-2.5</alias>
+        <alias>AP2127N-2.8</alias>
+        <alias>AP2127N-3.0</alias>
+        <alias>AP2127N-3.3</alias>
+        <alias>XC6206PxxxMR</alias>
+      </aliases>
+      <description>300mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23</description>
+      <docs>http://www.tme.eu/fr/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">APE8865N-12-HF-3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="multitool-rescue" part="C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="multitool-rescue" part="Conn_01x03-Connector_Generic-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03-Connector_Generic-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="multitool-rescue" part="Conn_02x03_Odd_Even-Connector_Generic-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue">
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even-Connector_Generic-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="multitool-rescue" part="L-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="multitool-rescue" part="MT2492-MT2492-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MT2492-MT2492-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BS" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="IN" type="input"/>
+        <pin num="6" name="SW" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="multitool-rescue" part="R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="multitool-rescue" part="TACTILE-tactile-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue">
+      <fields>
+        <field name="Reference">SW?</field>
+        <field name="Value">TACTILE-tactile-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="multitool-rescue" part="USB_B_Micro-Connector-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro-Connector-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="Amplifier_Current">
+      <uri>/usr/share/kicad/library/Amplifier_Current.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Interface_UART">
+      <uri>/usr/share/kicad/library/Interface_UART.lib</uri>
+    </library>
+    <library logical="LED">
+      <uri>/usr/share/kicad/library/LED.lib</uri>
+    </library>
+    <library logical="MCU_ST_STM32F0">
+      <uri>/usr/share/kicad/library/MCU_ST_STM32F0.lib</uri>
+    </library>
+    <library logical="NCE2003">
+      <uri>/home/cnlohr/git/stm32f042_fun/multitool/NCE2003.lib</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>/usr/share/kicad/library/Power_Protection.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="multitool-rescue">
+      <uri>/home/cnlohr/git/stm32f042_fun/multitool/multitool-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D1-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="3" name="VMON2">
+      <node ref="U1" pin="11"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="J3" pin="2"/>
+      <node ref="J14" pin="4"/>
+      <node ref="J19" pin="1"/>
+      <node ref="J18" pin="1"/>
+      <node ref="J3" pin="13"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J20" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J17" pin="1"/>
+      <node ref="U1" pin="32"/>
+      <node ref="L3" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="U8" pin="5"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="6"/>
+      <node ref="L4" pin="2"/>
+      <node ref="U7" pin="7"/>
+      <node ref="D7" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J15" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="J8" pin="3"/>
+      <node ref="R2" pin="1"/>
+      <node ref="J9" pin="6"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U1" pin="16"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="D3" pin="5"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U5" pin="5"/>
+      <node ref="C19" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="D23" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U9" pin="5"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="D3" pin="6"/>
+    </net>
+    <net code="5" name="Net-(R16-Pad2)">
+      <node ref="U8" pin="6"/>
+      <node ref="U8" pin="3"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="6" name="Net-(J5-Pad2)">
+      <node ref="U8" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="7" name="485A">
+      <node ref="U5" pin="6"/>
+      <node ref="J3" pin="11"/>
+    </net>
+    <net code="8" name="485B">
+      <node ref="J3" pin="9"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="9" name="VUSB">
+      <node ref="U5" pin="8"/>
+      <node ref="J4" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J14" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="10" name="U2TX">
+      <node ref="U5" pin="4"/>
+      <node ref="J3" pin="5"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U7" pin="11"/>
+      <node ref="U7" pin="12"/>
+      <node ref="J15" pin="7"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J6" pin="5"/>
+    </net>
+    <net code="11" name="U2RTS">
+      <node ref="U7" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U7" pin="6"/>
+      <node ref="J3" pin="10"/>
+      <node ref="U7" pin="9"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="12" name="SPIMOSICOMB">
+      <node ref="J14" pin="3"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J8" pin="8"/>
+      <node ref="R5" pin="2"/>
+      <node ref="D3" pin="4"/>
+      <node ref="J9" pin="1"/>
+    </net>
+    <net code="13" name="Net-(R5-Pad1)">
+      <node ref="U1" pin="27"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="14" name="U2RX">
+      <node ref="J15" pin="2"/>
+      <node ref="U1" pin="25"/>
+      <node ref="J3" pin="8"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J6" pin="6"/>
+      <node ref="R25" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="15" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="16" name="Net-(R9-Pad2)">
+      <node ref="U1" pin="10"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="17" name="SW1VDD">
+      <node ref="U1" pin="14"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C24-Pad2)">
+      <node ref="U9" pin="4"/>
+      <node ref="L4" pin="1"/>
+      <node ref="C24" pin="2"/>
+    </net>
+    <net code="19" name="+3V3">
+      <node ref="U4" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U7" pin="14"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="20" name="VMON1">
+      <node ref="U1" pin="6"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="21" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="22" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="31"/>
+      <node ref="SW1" pin="4"/>
+    </net>
+    <net code="23" name="Net-(C24-Pad1)">
+      <node ref="C24" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="L6" pin="1"/>
+    </net>
+    <net code="24" name="SW2VDD">
+      <node ref="Q2" pin="1"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="25" name="Net-(R18-Pad2)">
+      <node ref="U9" pin="6"/>
+      <node ref="U9" pin="3"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="26" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2"/>
+      <node ref="U9" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="27" name="SWD">
+      <node ref="U1" pin="23"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="28" name="DRIVEHI">
+      <node ref="Q4" pin="1"/>
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="29" name="~U2TX~">
+      <node ref="U7" pin="8"/>
+      <node ref="U7" pin="13"/>
+    </net>
+    <net code="30" name="U2TXEN">
+      <node ref="U5" pin="3"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="31" name="+3V8">
+      <node ref="D3" pin="1"/>
+      <node ref="J16" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="J16" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="32" name="Net-(SW2-Pad2)">
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="33" name="Net-(SW2-Pad3)">
+      <node ref="SW2" pin="3"/>
+    </net>
+    <net code="34" name="Net-(SW2-Pad4)">
+      <node ref="SW2" pin="4"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="35" name="Net-(D6-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="36" name="SPIMISO">
+      <node ref="R11" pin="2"/>
+      <node ref="J9" pin="4"/>
+      <node ref="R10" pin="1"/>
+      <node ref="J8" pin="7"/>
+    </net>
+    <net code="37" name="MAGICPIN">
+      <node ref="J9" pin="5"/>
+      <node ref="R20" pin="1"/>
+      <node ref="J8" pin="10"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="R25" pin="1"/>
+      <node ref="J3" pin="14"/>
+    </net>
+    <net code="38" name="DRIVELO">
+      <node ref="U7" pin="4"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="39" name="Net-(R10-Pad2)">
+      <node ref="U1" pin="12"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="40" name="Net-(Q4-Pad3)">
+      <node ref="R15" pin="2"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="41" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="42" name="PD_VDD">
+      <node ref="J6" pin="1"/>
+      <node ref="U6" pin="4"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J9" pin="2"/>
+      <node ref="D5" pin="1"/>
+      <node ref="J15" pin="8"/>
+      <node ref="R17" pin="2"/>
+      <node ref="J8" pin="4"/>
+    </net>
+    <net code="43" name="Net-(C23-Pad1)">
+      <node ref="L5" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="C23" pin="1"/>
+    </net>
+    <net code="44" name="Net-(C23-Pad2)">
+      <node ref="L3" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="45" name="SWC">
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="46" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="47" name="NRST">
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="48" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="49" name="Net-(C11-Pad2)">
+      <node ref="U2" pin="6"/>
+      <node ref="C11" pin="2"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="50" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="51" name="Net-(R1-Pad1)">
+      <node ref="U2" pin="3"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="52" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="53" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="54" name="AVCC">
+      <node ref="C6" pin="1"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C7" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="55" name="SCL">
+      <node ref="J15" pin="3"/>
+      <node ref="J8" pin="6"/>
+      <node ref="J6" pin="4"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="56" name="U2CK">
+      <node ref="R9" pin="1"/>
+      <node ref="J15" pin="4"/>
+    </net>
+    <net code="57" name="SDA">
+      <node ref="J8" pin="5"/>
+      <node ref="J15" pin="5"/>
+      <node ref="J6" pin="3"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="58" name="Net-(C9-Pad1)">
+      <node ref="R23" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="L6" pin="2"/>
+    </net>
+    <net code="59" name="Net-(D3-Pad3)">
+      <node ref="D3" pin="3"/>
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="60" name="SW1VPP">
+      <node ref="U1" pin="18"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U8" pin="1"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="61" name="SW2VPP">
+      <node ref="Q1" pin="1"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="62" name="Net-(R4-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="63" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="64" name="D-">
+      <node ref="U3" pin="6"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="65" name="D+">
+      <node ref="U3" pin="4"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="22"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="66" name="PIMON">
+      <node ref="U1" pin="13"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="67" name="SPISCK">
+      <node ref="U1" pin="26"/>
+      <node ref="J9" pin="3"/>
+      <node ref="D7" pin="1"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J8" pin="9"/>
+    </net>
+    <net code="68" name="~485RXEN~">
+      <node ref="U5" pin="2"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="69" name="PD_VPP">
+      <node ref="R21" pin="1"/>
+      <node ref="J3" pin="12"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="L5" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="J15" pin="6"/>
+      <node ref="D23" pin="1"/>
+    </net>
+  </nets>
+</export>
