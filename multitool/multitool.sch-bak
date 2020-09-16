@@ -2579,7 +2579,7 @@ F 3 "" H 3250 5400 50  0001 C CNN
 	1    3250 5400
 	1    0    0    -1  
 $EndComp
-Text Notes 7750 3300 0    50   ~ 0
+Text Notes 6750 3150 0    50   ~ 0
 Inductors: https://lcsc.com/product-detail/Power-Inductors_Ceaiya-CR5040-220M_C520354.html (22uH)\nor \nhttps://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_GLE-GCNR4030-100MC_C439346.html (10uH)
 $Comp
 L MCU_ST_STM32F0:STM32F042C6Tx U?
@@ -2684,30 +2684,32 @@ Text GLabel 1200 2750 0    50   Input ~ 0
 CANRX
 Text GLabel 1200 2850 0    50   Input ~ 0
 CANTX
-Connection ~ 1100 2650
 Wire Wire Line
-	1100 2550 1100 2650
+	1150 2550 1150 2600
 Wire Wire Line
-	1200 2550 1100 2550
+	1200 2550 1150 2550
 $Comp
 L multitool-rescue:R-Device-tensigral_lamp_hardware-rescue-tensigral_lamp_hardware-rescue R12
 U 1 1 5EFF8C31
-P 950 2650
-F 0 "R12" V 1050 2650 50  0000 R CNN
-F 1 "100" V 950 2650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 880 2650 50  0001 C CNN
-F 3 "~" H 950 2650 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.html" H 950 2650 50  0001 C CNN "LCSC"
-F 5 "0.002" H 950 2650 50  0001 C CNN "Cost100"
-	1    950  2650
+P 1000 2600
+F 0 "R12" V 1100 2600 50  0000 R CNN
+F 1 "100" V 1000 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 930 2600 50  0001 C CNN
+F 3 "~" H 1000 2600 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.html" H 1000 2600 50  0001 C CNN "LCSC"
+F 5 "0.002" H 1000 2600 50  0001 C CNN "Cost100"
+	1    1000 2600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1200 2650 1100 2650
-Text GLabel 800  2650 0    50   Input ~ 0
+	1200 2650 1150 2650
+Text GLabel 850  2600 0    50   Input ~ 0
 U2TXRX
 Text Notes 1350 250  0    118  ~ 0
 TODO: REDO GPIO
 Text GLabel 2400 2150 2    50   Input ~ 0
 VMONIN
+Connection ~ 1150 2600
+Wire Wire Line
+	1150 2600 1150 2650
 $EndSCHEMATC
