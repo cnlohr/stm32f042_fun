@@ -2721,4 +2721,6 @@ Text Notes 6700 5800 0    50   ~ 0
 Allows for slightly different drive voltages. 
 Text Notes 6150 2400 0    50   ~ 0
 ADC Alt
+Text Notes 3750 3950 0    118  ~ 0
+PA10 is free?
 $EndSCHEMATC
