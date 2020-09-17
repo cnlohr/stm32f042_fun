@@ -1069,7 +1069,7 @@ $EndComp
 Text GLabel 5200 3600 0    50   Input ~ 0
 U2RX
 Text GLabel 5200 3700 0    50   Input ~ 0
-U2CK
+PA10
 Text GLabel 5200 3800 0    50   Input ~ 0
 PD_VPP
 $Comp
@@ -2366,8 +2366,6 @@ F 5 "0.002" H 5850 2200 50  0001 C CNN "Cost100"
 	1    5850 2200
 	0    1    1    0   
 $EndComp
-Text GLabel 5700 2400 2    50   Input ~ 0
-U2CK
 Text GLabel 7350 3300 0    50   Input ~ 0
 U2CK
 Text GLabel 7350 3000 1    50   Input ~ 0
@@ -2719,8 +2717,10 @@ Text GLabel 7900 5900 2    50   Input ~ 0
 PD_VDD
 Text Notes 6700 5800 0    50   ~ 0
 Allows for slightly different drive voltages. 
-Text Notes 6150 2400 0    50   ~ 0
-ADC Alt
-Text Notes 3750 3950 0    118  ~ 0
+Text Notes 3550 3900 0    118  ~ 0
 PA10 is free?
+Text Notes 6100 2450 0    50   ~ 0
+ADC Alt
+Text GLabel 5700 2400 2    50   Input ~ 0
+SPIMISO
 $EndSCHEMATC
