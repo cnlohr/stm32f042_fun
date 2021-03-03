@@ -72,7 +72,7 @@ void TriggerDMA()
 	DMA1->IFCR = 0x0f00; // clear any pending interrupts  XXX Fix this later.
 	DMA1_Channel3->CPAR = (uint32_t)(&(SPI1->DR));
 	DMA1_Channel3->CMAR = (uint32_t)&rawwsdata;  // Don't know what to send yet
-	DMA1_Channel3->CNDTR = sizeof(rawwsdata)+1; // No bytes yet
+	DMA1_Channel3->CNDTR = sizeof(rawwsdata); // No bytes yet
 	DMA1_Channel3->CCR |= _BV(0); // re-enable DMA
 }
 
